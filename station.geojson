@@ -1,0 +1,2195 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15672,39.95005 ]
+    },
+    "properties": {
+    "ID":3033,
+    "Name":"10th & Chestnut",
+    "Docks":20,
+    "cluster_weekday":3,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":50.4045584,
+    "station_avg_ridership_weekend":38.92307692,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":9,
+    "final_cluster_weekend":9,
+    "most_positive_imbalanced_weekday":"Friday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":0.576923077,
+    "most_positive_imbalanced_avg_return":4.153846154,
+    "most_positive_imbalanced_pressure":0.178846154,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":5.846153846,
+    "most_negative_imbalanced_avg_return":1,
+    "most_negative_imbalanced_pressure":-0.242307692
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15993,39.94517 ]
+    },
+    "properties": {
+    "ID":3007,
+    "Name":"11th & Pine  Kahn Park",
+    "Docks":15,
+    "cluster_weekday":1,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":86.49373219,
+    "station_avg_ridership_weekend":90.59615385,
+    "station_avg_ridership_cluster_weekday":1,
+    "station_avg_ridership_cluster_weekend":1,
+    "final_cluster_weekday":1,
+    "final_cluster_weekend":1,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":3.230769231,
+    "most_positive_imbalanced_avg_return":6.653846154,
+    "most_positive_imbalanced_pressure":0.228205128,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":6.846153846,
+    "most_negative_imbalanced_avg_return":2,
+    "most_negative_imbalanced_pressure":-0.323076923
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.1547,39.96892 ]
+    },
+    "properties": {
+    "ID":3016,
+    "Name":"11th & Poplar  John F. Street Community Center",
+    "Docks":15,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":3.874920635,
+    "station_avg_ridership_weekend":4.5688721,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Thursday",
+    "most_positive_imbalanced_hour":1,
+    "most_positive_imbalanced_avg_checkout":0,
+    "most_positive_imbalanced_avg_return":0.37037037,
+    "most_positive_imbalanced_pressure":0.024691358,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":13,
+    "most_negative_imbalanced_avg_checkout":0.346153846,
+    "most_negative_imbalanced_avg_return":0.076923077,
+    "most_negative_imbalanced_pressure":-0.017948718
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.16248,39.93315 ]
+    },
+    "properties": {
+    "ID":3034,
+    "Name":"11th & Reed",
+    "Docks":16,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":53.97207977,
+    "station_avg_ridership_weekend":56.61538462,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":3,
+    "final_cluster_weekend":5,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":1.730769231,
+    "most_positive_imbalanced_avg_return":5.961538462,
+    "most_positive_imbalanced_pressure":0.264423077,
+    "most_negative_imbalanced_weekday":"Wednesday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":4.777777778,
+    "most_negative_imbalanced_avg_return":0.851851852,
+    "most_negative_imbalanced_pressure":-0.24537037
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.1612,39.93724 ]
+    },
+    "properties": {
+    "ID":3025,
+    "Name":"11th & Washington",
+    "Docks":15,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":39.02507123,
+    "station_avg_ridership_weekend":36,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":2,
+    "final_cluster_weekend":6,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":0.769230769,
+    "most_positive_imbalanced_avg_return":4.153846154,
+    "most_positive_imbalanced_pressure":0.225641026,
+    "most_negative_imbalanced_weekday":"Wednesday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":4.074074074,
+    "most_negative_imbalanced_avg_return":0.333333333,
+    "most_negative_imbalanced_pressure":-0.249382716
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15979,39.95273 ]
+    },
+    "properties": {
+    "ID":3018,
+    "Name":"12th & Filbert",
+    "Docks":18,
+    "cluster_weekday":3,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":65.68739601,
+    "station_avg_ridership_weekend":63.65865385,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":9,
+    "final_cluster_weekend":8,
+    "most_positive_imbalanced_weekday":"Wednesday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":2.222222222,
+    "most_positive_imbalanced_avg_return":5.62962963,
+    "most_positive_imbalanced_pressure":0.189300412,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":8.153846154,
+    "most_negative_imbalanced_avg_return":2.961538462,
+    "most_negative_imbalanced_pressure":-0.288461538
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.16237,39.94792 ]
+    },
+    "properties": {
+    "ID":3045,
+    "Name":"13th & Locust",
+    "Docks":15,
+    "cluster_weekday":3,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":107.0492877,
+    "station_avg_ridership_weekend":99.38461538,
+    "station_avg_ridership_cluster_weekday":1,
+    "station_avg_ridership_cluster_weekend":1,
+    "final_cluster_weekday":7,
+    "final_cluster_weekend":7,
+    "most_positive_imbalanced_weekday":"Friday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":3.423076923,
+    "most_positive_imbalanced_avg_return":7.884615385,
+    "most_positive_imbalanced_pressure":0.297435897,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":18,
+    "most_negative_imbalanced_avg_checkout":7.461538462,
+    "most_negative_imbalanced_avg_return":5.038461538,
+    "most_negative_imbalanced_pressure":-0.161538462
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15522,39.98005 ]
+    },
+    "properties": {
+    "ID":3031,
+    "Name":"13th & Montgomery",
+    "Docks":21,
+    "cluster_weekday":3,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":44.3237265,
+    "station_avg_ridership_weekend":24.10788462,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":9,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":0.384615385,
+    "most_positive_imbalanced_avg_return":3.653846154,
+    "most_positive_imbalanced_pressure":0.155677656,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":3.884615385,
+    "most_negative_imbalanced_avg_return":1.5,
+    "most_negative_imbalanced_pressure":-0.113553114
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.16618,39.94711 ]
+    },
+    "properties": {
+    "ID":3010,
+    "Name":"15th & Spruce",
+    "Docks":19,
+    "cluster_weekday":2,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":113.1863248,
+    "station_avg_ridership_weekend":112.0576923,
+    "station_avg_ridership_cluster_weekday":1,
+    "station_avg_ridership_cluster_weekend":1,
+    "final_cluster_weekday":4,
+    "final_cluster_weekend":7,
+    "most_positive_imbalanced_weekday":"Wednesday",
+    "most_positive_imbalanced_hour":9,
+    "most_positive_imbalanced_avg_checkout":2.703703704,
+    "most_positive_imbalanced_avg_return":5.62962963,
+    "most_positive_imbalanced_pressure":0.153996101,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":8.884615385,
+    "most_negative_imbalanced_avg_return":5.653846154,
+    "most_negative_imbalanced_pressure":-0.170040486
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.16351,39.97207 ]
+    },
+    "properties": {
+    "ID":3077,
+    "Name":"17th & Girard",
+    "Docks":19,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":14.88619943,
+    "station_avg_ridership_weekend":12.47564103,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Wednesday",
+    "most_positive_imbalanced_hour":23,
+    "most_positive_imbalanced_avg_checkout":0.111111111,
+    "most_positive_imbalanced_avg_return":0.740740741,
+    "most_positive_imbalanced_pressure":0.033138402,
+    "most_negative_imbalanced_weekday":"Thursday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":1.185185185,
+    "most_negative_imbalanced_avg_return":0,
+    "most_negative_imbalanced_pressure":-0.062378168
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.1698,39.94633 ]
+    },
+    "properties": {
+    "ID":3063,
+    "Name":"17th & Pine",
+    "Docks":25,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":65.81509972,
+    "station_avg_ridership_weekend":62.86538462,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":6,
+    "final_cluster_weekend":2,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":3.153846154,
+    "most_positive_imbalanced_avg_return":4.615384615,
+    "most_positive_imbalanced_pressure":0.058461538,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":3.576923077,
+    "most_negative_imbalanced_avg_return":1.576923077,
+    "most_negative_imbalanced_pressure":-0.08
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.16606,39.96289 ]
+    },
+    "properties": {
+    "ID":3040,
+    "Name":"17th & Spring Garden  Community College of Philadelphia",
+    "Docks":21,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":38.24729345,
+    "station_avg_ridership_weekend":31.76923077,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":11,
+    "most_positive_imbalanced_avg_checkout":0.653846154,
+    "most_positive_imbalanced_avg_return":1.461538462,
+    "most_positive_imbalanced_pressure":0.038461538,
+    "most_negative_imbalanced_weekday":"Wednesday",
+    "most_negative_imbalanced_hour":14,
+    "most_negative_imbalanced_avg_checkout":1.481481481,
+    "most_negative_imbalanced_avg_return":0.333333333,
+    "most_negative_imbalanced_pressure":-0.054673721
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.17474,39.93082 ]
+    },
+    "properties": {
+    "ID":3043,
+    "Name":"18th & Fernon  Aquinas Center",
+    "Docks":18,
+    "cluster_weekday":2,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":14.97205698,
+    "station_avg_ridership_weekend":17.38,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":6,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":20,
+    "most_positive_imbalanced_avg_checkout":0.192307692,
+    "most_positive_imbalanced_avg_return":1.346153846,
+    "most_positive_imbalanced_pressure":0.064102564,
+    "most_negative_imbalanced_weekday":"Friday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":1.576923077,
+    "most_negative_imbalanced_avg_return":0.038461538,
+    "most_negative_imbalanced_pressure":-0.085470085
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.16902,39.9539 ]
+    },
+    "properties": {
+    "ID":3021,
+    "Name":"18th & JFK",
+    "Docks":20,
+    "cluster_weekday":3,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":93.35726496,
+    "station_avg_ridership_weekend":48.46,
+    "station_avg_ridership_cluster_weekday":1,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":7,
+    "final_cluster_weekend":8,
+    "most_positive_imbalanced_weekday":"Thursday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":1.481481481,
+    "most_positive_imbalanced_avg_return":13.62962963,
+    "most_positive_imbalanced_pressure":0.607407407,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":11.19230769,
+    "most_negative_imbalanced_avg_return":3.807692308,
+    "most_negative_imbalanced_pressure":-0.369230769
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.17327,39.9384 ]
+    },
+    "properties": {
+    "ID":3064,
+    "Name":"18th & Washington  Chew Playground",
+    "Docks":15,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":43.33443875,
+    "station_avg_ridership_weekend":39.23076923,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":3,
+    "final_cluster_weekend":6,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":1.384615385,
+    "most_positive_imbalanced_avg_return":3.884615385,
+    "most_positive_imbalanced_pressure":0.166666667,
+    "most_negative_imbalanced_weekday":"Wednesday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":4.592592593,
+    "most_negative_imbalanced_avg_return":0.555555556,
+    "most_negative_imbalanced_pressure":-0.269135802
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.17348,39.94561 ]
+    },
+    "properties": {
+    "ID":3066,
+    "Name":"19th & Lombard",
+    "Docks":19,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":53.49259259,
+    "station_avg_ridership_weekend":49.34615385,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":3,
+    "final_cluster_weekend":5,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":19,
+    "most_positive_imbalanced_avg_checkout":1.192307692,
+    "most_positive_imbalanced_avg_return":3.038461538,
+    "most_positive_imbalanced_pressure":0.097165992,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":5.307692308,
+    "most_negative_imbalanced_avg_return":0.923076923,
+    "most_negative_imbalanced_pressure":-0.230769231
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.17192,39.95355 ]
+    },
+    "properties": {
+    "ID":3078,
+    "Name":"19th & Market",
+    "Docks":16,
+    "cluster_weekday":3,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":53.78536752,
+    "station_avg_ridership_weekend":35.28846154,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":9,
+    "final_cluster_weekend":9,
+    "most_positive_imbalanced_weekday":"Wednesday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":0.37037037,
+    "most_positive_imbalanced_avg_return":6.074074074,
+    "most_positive_imbalanced_pressure":0.356481481,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":6.730769231,
+    "most_negative_imbalanced_avg_return":1.615384615,
+    "most_negative_imbalanced_pressure":-0.319711538
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.17001,39.96716 ]
+    },
+    "properties": {
+    "ID":3058,
+    "Name":"20th & Fairmount",
+    "Docks":13,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":37.8039886,
+    "station_avg_ridership_weekend":42.05769231,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":2,
+    "final_cluster_weekend":6,
+    "most_positive_imbalanced_weekday":"Friday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":1.230769231,
+    "most_positive_imbalanced_avg_return":3.346153846,
+    "most_positive_imbalanced_pressure":0.162721893,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":2.692307692,
+    "most_negative_imbalanced_avg_return":0.346153846,
+    "most_negative_imbalanced_pressure":-0.180473373
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.1775,39.94217 ]
+    },
+    "properties": {
+    "ID":3012,
+    "Name":"21st & Catharine",
+    "Docks":26,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":61.35641026,
+    "station_avg_ridership_weekend":53.96153846,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":3,
+    "final_cluster_weekend":5,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":1.653846154,
+    "most_positive_imbalanced_avg_return":6.423076923,
+    "most_positive_imbalanced_pressure":0.183431953,
+    "most_negative_imbalanced_weekday":"Thursday",
+    "most_negative_imbalanced_hour":7,
+    "most_negative_imbalanced_avg_checkout":5.481481481,
+    "most_negative_imbalanced_avg_return":0.407407407,
+    "most_negative_imbalanced_pressure":-0.195156695
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.17369,39.95886 ]
+    },
+    "properties": {
+    "ID":3014,
+    "Name":"21st & Winter  Franklin Institute",
+    "Docks":25,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":33.61009687,
+    "station_avg_ridership_weekend":41.81461538,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Friday",
+    "most_positive_imbalanced_hour":22,
+    "most_positive_imbalanced_avg_checkout":0.346153846,
+    "most_positive_imbalanced_avg_return":1.538461538,
+    "most_positive_imbalanced_pressure":0.047692308,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":2.538461538,
+    "most_negative_imbalanced_avg_return":1.115384615,
+    "most_negative_imbalanced_pressure":-0.056923077
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.17507,39.96744 ]
+    },
+    "properties": {
+    "ID":3051,
+    "Name":"23rd & Fairmount",
+    "Docks":25,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":57.86467236,
+    "station_avg_ridership_weekend":74.84615385,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":3,
+    "final_cluster_weekend":5,
+    "most_positive_imbalanced_weekday":"Wednesday",
+    "most_positive_imbalanced_hour":18,
+    "most_positive_imbalanced_avg_checkout":1.592592593,
+    "most_positive_imbalanced_avg_return":5.777777778,
+    "most_positive_imbalanced_pressure":0.167407407,
+    "most_negative_imbalanced_weekday":"Wednesday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":7.62962963,
+    "most_negative_imbalanced_avg_return":0.185185185,
+    "most_negative_imbalanced_pressure":-0.297777778
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.17761,39.95425 ]
+    },
+    "properties": {
+    "ID":3061,
+    "Name":"23rd & Market",
+    "Docks":25,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":62.09002849,
+    "station_avg_ridership_weekend":64.25,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":6,
+    "final_cluster_weekend":2,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":1.576923077,
+    "most_positive_imbalanced_avg_return":5.192307692,
+    "most_positive_imbalanced_pressure":0.144615385,
+    "most_negative_imbalanced_weekday":"Wednesday",
+    "most_negative_imbalanced_hour":18,
+    "most_negative_imbalanced_avg_checkout":4.407407407,
+    "most_negative_imbalanced_avg_return":1.925925926,
+    "most_negative_imbalanced_pressure":-0.099259259
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.17971,39.94527 ]
+    },
+    "properties": {
+    "ID":3032,
+    "Name":"23rd & South ",
+    "Docks":17,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":90.09059829,
+    "station_avg_ridership_weekend":94.71153846,
+    "station_avg_ridership_cluster_weekday":1,
+    "station_avg_ridership_cluster_weekend":1,
+    "final_cluster_weekday":1,
+    "final_cluster_weekend":4,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":3.038461538,
+    "most_positive_imbalanced_avg_return":8.576923077,
+    "most_positive_imbalanced_pressure":0.325791855,
+    "most_negative_imbalanced_weekday":"Wednesday",
+    "most_negative_imbalanced_hour":6,
+    "most_negative_imbalanced_avg_checkout":5.407407407,
+    "most_negative_imbalanced_avg_return":0.296296296,
+    "most_negative_imbalanced_pressure":-0.300653595
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.17943,39.95197 ]
+    },
+    "properties": {
+    "ID":3062,
+    "Name":"24th & Sansom",
+    "Docks":15,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":47.36866097,
+    "station_avg_ridership_weekend":37.19230769,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":6,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Thursday",
+    "most_positive_imbalanced_hour":9,
+    "most_positive_imbalanced_avg_checkout":1.222222222,
+    "most_positive_imbalanced_avg_return":3,
+    "most_positive_imbalanced_pressure":0.118518519,
+    "most_negative_imbalanced_weekday":"Wednesday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":4.592592593,
+    "most_negative_imbalanced_avg_return":3.074074074,
+    "most_negative_imbalanced_pressure":-0.101234568
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.14001,39.96844 ]
+    },
+    "properties": {
+    "ID":3036,
+    "Name":"2nd & Germantown",
+    "Docks":15,
+    "cluster_weekday":1,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":23.92790883,
+    "station_avg_ridership_weekend":32.26923077,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":2,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":0.538461538,
+    "most_positive_imbalanced_avg_return":2.384615385,
+    "most_positive_imbalanced_pressure":0.123076923,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":1.384615385,
+    "most_negative_imbalanced_avg_return":0.115384615,
+    "most_negative_imbalanced_pressure":-0.084615385
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.14472,39.95012 ]
+    },
+    "properties": {
+    "ID":3046,
+    "Name":"2nd & Market",
+    "Docks":11,
+    "cluster_weekday":2,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":56.52108262,
+    "station_avg_ridership_weekend":78.73076923,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":6,
+    "final_cluster_weekend":8,
+    "most_positive_imbalanced_weekday":"Wednesday",
+    "most_positive_imbalanced_hour":9,
+    "most_positive_imbalanced_avg_checkout":1.185185185,
+    "most_positive_imbalanced_avg_return":2.888888889,
+    "most_positive_imbalanced_pressure":0.154882155,
+    "most_negative_imbalanced_weekday":"Saturday",
+    "most_negative_imbalanced_hour":14,
+    "most_negative_imbalanced_avg_checkout":3.653846154,
+    "most_negative_imbalanced_avg_return":2.5,
+    "most_negative_imbalanced_pressure":-0.104895105
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.14564,39.94138 ]
+    },
+    "properties": {
+    "ID":3026,
+    "Name":"2nd & South",
+    "Docks":17,
+    "cluster_weekday":1,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":51.04131054,
+    "station_avg_ridership_weekend":69.73076923,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":3,
+    "final_cluster_weekend":2,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":1.076923077,
+    "most_positive_imbalanced_avg_return":4.692307692,
+    "most_positive_imbalanced_pressure":0.212669683,
+    "most_negative_imbalanced_weekday":"Thursday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":2.777777778,
+    "most_negative_imbalanced_avg_return":0.518518519,
+    "most_negative_imbalanced_pressure":-0.132897603
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.18788,39.96173 ]
+    },
+    "properties": {
+    "ID":3071,
+    "Name":"32nd & Baring  Drexel Park",
+    "Docks":13,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":23.80876353,
+    "station_avg_ridership_weekend":29.23076923,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":2,
+    "final_cluster_weekend":6,
+    "most_positive_imbalanced_weekday":"Thursday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":0.592592593,
+    "most_positive_imbalanced_avg_return":2.074074074,
+    "most_positive_imbalanced_pressure":0.113960114,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":2.653846154,
+    "most_negative_imbalanced_avg_return":0.307692308,
+    "most_negative_imbalanced_pressure":-0.180473373
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.18982,39.95576 ]
+    },
+    "properties": {
+    "ID":3009,
+    "Name":"33rd & Market",
+    "Docks":14,
+    "cluster_weekday":3,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":60.85698006,
+    "station_avg_ridership_weekend":47.75,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":9,
+    "final_cluster_weekend":8,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":9,
+    "most_positive_imbalanced_avg_checkout":0.884615385,
+    "most_positive_imbalanced_avg_return":4.5,
+    "most_positive_imbalanced_pressure":0.258241758,
+    "most_negative_imbalanced_weekday":"Wednesday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":4.851851852,
+    "most_negative_imbalanced_avg_return":2.407407407,
+    "most_negative_imbalanced_pressure":-0.174603175
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.19479,39.9538 ]
+    },
+    "properties": {
+    "ID":3029,
+    "Name":"36th & Sansom",
+    "Docks":17,
+    "cluster_weekday":3,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":77.71851852,
+    "station_avg_ridership_weekend":63.34615385,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":9,
+    "final_cluster_weekend":8,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":1.115384615,
+    "most_positive_imbalanced_avg_return":7.807692308,
+    "most_positive_imbalanced_pressure":0.393665158,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":6.961538462,
+    "most_negative_imbalanced_avg_return":2.192307692,
+    "most_negative_imbalanced_pressure":-0.280542986
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.19701,39.96046 ]
+    },
+    "properties": {
+    "ID":3011,
+    "Name":"38th & Lancaster",
+    "Docks":8,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":19.85503134,
+    "station_avg_ridership_weekend":15.85769231,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":2,
+    "final_cluster_weekend":6,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":19,
+    "most_positive_imbalanced_avg_checkout":0.5,
+    "most_positive_imbalanced_avg_return":1.384615385,
+    "most_positive_imbalanced_pressure":0.110576923,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":1.884615385,
+    "most_negative_imbalanced_avg_return":0.192307692,
+    "most_negative_imbalanced_pressure":-0.211538462
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.19973,39.96411 ]
+    },
+    "properties": {
+    "ID":3067,
+    "Name":"39th & Mt. Vernon  Mantua Haverford Community Center",
+    "Docks":17,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":6.07514669,
+    "station_avg_ridership_weekend":7.170138889,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":18,
+    "most_positive_imbalanced_avg_checkout":0.038461538,
+    "most_positive_imbalanced_avg_return":0.5,
+    "most_positive_imbalanced_pressure":0.027149321,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":7,
+    "most_negative_imbalanced_avg_checkout":0.423076923,
+    "most_negative_imbalanced_avg_return":0,
+    "most_negative_imbalanced_pressure":-0.024886878
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.1418,39.96984 ]
+    },
+    "properties": {
+    "ID":3088,
+    "Name":"3rd & Girard",
+    "Docks":20,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":8.656161616,
+    "station_avg_ridership_weekend":7.541666667,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":0.038461538,
+    "most_positive_imbalanced_avg_return":0.5,
+    "most_positive_imbalanced_pressure":0.023076923,
+    "most_negative_imbalanced_weekday":"Thursday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":0.37037037,
+    "most_negative_imbalanced_avg_return":0.074074074,
+    "most_negative_imbalanced_pressure":-0.014814815
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.20311,39.9522 ]
+    },
+    "properties": {
+    "ID":3006,
+    "Name":"40th & Spruce",
+    "Docks":17,
+    "cluster_weekday":2,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":38.94417949,
+    "station_avg_ridership_weekend":46.25,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":5,
+    "most_positive_imbalanced_weekday":"Friday",
+    "most_positive_imbalanced_hour":21,
+    "most_positive_imbalanced_avg_checkout":0.961538462,
+    "most_positive_imbalanced_avg_return":1.769230769,
+    "most_positive_imbalanced_pressure":0.047511312,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":2.884615385,
+    "most_negative_imbalanced_avg_return":1.5,
+    "most_negative_imbalanced_pressure":-0.081447964
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.20177,39.95708 ]
+    },
+    "properties": {
+    "ID":3027,
+    "Name":"40th Street Station  MFL",
+    "Docks":8,
+    "cluster_weekday":2,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":25.40271105,
+    "station_avg_ridership_weekend":23.67559524,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":6,
+    "most_positive_imbalanced_weekday":"Thursday",
+    "most_positive_imbalanced_hour":16,
+    "most_positive_imbalanced_avg_checkout":0.333333333,
+    "most_positive_imbalanced_avg_return":0.740740741,
+    "most_positive_imbalanced_pressure":0.050925926,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":18,
+    "most_negative_imbalanced_avg_checkout":1.961538462,
+    "most_negative_imbalanced_avg_return":0.423076923,
+    "most_negative_imbalanced_pressure":-0.192307692
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.20908,39.94822 ]
+    },
+    "properties": {
+    "ID":3024,
+    "Name":"43rd & Chester  Clark Park",
+    "Docks":19,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":30.13789174,
+    "station_avg_ridership_weekend":35.03846154,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":2,
+    "final_cluster_weekend":6,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":0.807692308,
+    "most_positive_imbalanced_avg_return":2.807692308,
+    "most_positive_imbalanced_pressure":0.105263158,
+    "most_negative_imbalanced_weekday":"Wednesday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":2.37037037,
+    "most_negative_imbalanced_avg_return":0.555555556,
+    "most_negative_imbalanced_pressure":-0.095516569
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.20987,39.95511 ]
+    },
+    "properties": {
+    "ID":3074,
+    "Name":"44th & Walnut",
+    "Docks":15,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":34.5385641,
+    "station_avg_ridership_weekend":30.86,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":2,
+    "final_cluster_weekend":6,
+    "most_positive_imbalanced_weekday":"Wednesday",
+    "most_positive_imbalanced_hour":18,
+    "most_positive_imbalanced_avg_checkout":0.666666667,
+    "most_positive_imbalanced_avg_return":2.222222222,
+    "most_positive_imbalanced_pressure":0.103703704,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":9,
+    "most_negative_imbalanced_avg_checkout":2.653846154,
+    "most_negative_imbalanced_avg_return":0.192307692,
+    "most_negative_imbalanced_pressure":-0.164102564
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.14958,39.94061 ]
+    },
+    "properties": {
+    "ID":3028,
+    "Name":"4th & Bainbridge",
+    "Docks":15,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":67.63190883,
+    "station_avg_ridership_weekend":70.30769231,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":3,
+    "final_cluster_weekend":5,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":2.192307692,
+    "most_positive_imbalanced_avg_return":7.653846154,
+    "most_positive_imbalanced_pressure":0.364102564,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":4.538461538,
+    "most_negative_imbalanced_avg_return":0.730769231,
+    "most_negative_imbalanced_pressure":-0.253846154
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15038,39.93704 ]
+    },
+    "properties": {
+    "ID":3069,
+    "Name":"4th & Christian",
+    "Docks":23,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":47.89173789,
+    "station_avg_ridership_weekend":35.48076923,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":3,
+    "final_cluster_weekend":6,
+    "most_positive_imbalanced_weekday":"Friday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":1.230769231,
+    "most_positive_imbalanced_avg_return":5.423076923,
+    "most_positive_imbalanced_pressure":0.182274247,
+    "most_negative_imbalanced_weekday":"Wednesday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":6.814814815,
+    "most_negative_imbalanced_avg_return":0.518518519,
+    "most_negative_imbalanced_pressure":-0.273752013
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.1487,39.94759 ]
+    },
+    "properties": {
+    "ID":3015,
+    "Name":"4th & Walnut  NPS",
+    "Docks":11,
+    "cluster_weekday":3,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":33.69545299,
+    "station_avg_ridership_weekend":28.17307692,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":8,
+    "final_cluster_weekend":9,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":0.307692308,
+    "most_positive_imbalanced_avg_return":3.846153846,
+    "most_positive_imbalanced_pressure":0.321678322,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":3.423076923,
+    "most_negative_imbalanced_avg_return":1.576923077,
+    "most_negative_imbalanced_pressure":-0.167832168
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.14371,39.98003 ]
+    },
+    "properties": {
+    "ID":3017,
+    "Name":"6th & Berks",
+    "Docks":15,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":6.702979673,
+    "station_avg_ridership_weekend":6.15472228,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":16,
+    "most_positive_imbalanced_avg_checkout":0.230769231,
+    "most_positive_imbalanced_avg_return":0.692307692,
+    "most_positive_imbalanced_pressure":0.030769231,
+    "most_negative_imbalanced_weekday":"Wednesday",
+    "most_negative_imbalanced_hour":7,
+    "most_negative_imbalanced_avg_checkout":1,
+    "most_negative_imbalanced_avg_return":0,
+    "most_negative_imbalanced_pressure":-0.066666667
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.14792,39.96317 ]
+    },
+    "properties": {
+    "ID":3013,
+    "Name":"6th & Fairmount",
+    "Docks":15,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":23.17948718,
+    "station_avg_ridership_weekend":22.32923077,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":2,
+    "final_cluster_weekend":6,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":0.461538462,
+    "most_positive_imbalanced_avg_return":2.038461538,
+    "most_positive_imbalanced_pressure":0.105128205,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":2.461538462,
+    "most_negative_imbalanced_avg_return":0.076923077,
+    "most_negative_imbalanced_pressure":-0.158974359
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.14983,39.95403 ]
+    },
+    "properties": {
+    "ID":3019,
+    "Name":"6th & Race",
+    "Docks":15,
+    "cluster_weekday":3,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":23.26054701,
+    "station_avg_ridership_weekend":16.3,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":8,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Friday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":0.192307692,
+    "most_positive_imbalanced_avg_return":2.692307692,
+    "most_positive_imbalanced_pressure":0.166666667,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":3.692307692,
+    "most_negative_imbalanced_avg_return":1.269230769,
+    "most_negative_imbalanced_pressure":-0.161538462
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15457,39.95112 ]
+    },
+    "properties": {
+    "ID":3055,
+    "Name":"8th & Market",
+    "Docks":15,
+    "cluster_weekday":2,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":35.10712251,
+    "station_avg_ridership_weekend":33.15384615,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":9,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":0.461538462,
+    "most_positive_imbalanced_avg_return":3,
+    "most_positive_imbalanced_pressure":0.169230769,
+    "most_negative_imbalanced_weekday":"Thursday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":3.111111111,
+    "most_negative_imbalanced_avg_return":1.185185185,
+    "most_negative_imbalanced_pressure":-0.128395062
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15426,39.95339 ]
+    },
+    "properties": {
+    "ID":3050,
+    "Name":"9th & Arch",
+    "Docks":15,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":37.55584046,
+    "station_avg_ridership_weekend":46.25,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":2,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":0.769230769,
+    "most_positive_imbalanced_avg_return":2.730769231,
+    "most_positive_imbalanced_pressure":0.130769231,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":2.961538462,
+    "most_negative_imbalanced_avg_return":1.846153846,
+    "most_negative_imbalanced_pressure":-0.074358974
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15695,39.94732 ]
+    },
+    "properties": {
+    "ID":3052,
+    "Name":"9th & Locust",
+    "Docks":25,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":76,
+    "station_avg_ridership_weekend":65.26923077,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":6,
+    "final_cluster_weekend":2,
+    "most_positive_imbalanced_weekday":"Wednesday",
+    "most_positive_imbalanced_hour":9,
+    "most_positive_imbalanced_avg_checkout":1.962962963,
+    "most_positive_imbalanced_avg_return":4.444444444,
+    "most_positive_imbalanced_pressure":0.099259259,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":5.692307692,
+    "most_negative_imbalanced_avg_return":3.423076923,
+    "most_negative_imbalanced_pressure":-0.090769231
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15242,39.96143 ]
+    },
+    "properties": {
+    "ID":3073,
+    "Name":"9th & Spring Garden",
+    "Docks":15,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":24.68091168,
+    "station_avg_ridership_weekend":19.90064103,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Thursday",
+    "most_positive_imbalanced_hour":19,
+    "most_positive_imbalanced_avg_checkout":0.555555556,
+    "most_positive_imbalanced_avg_return":1.444444444,
+    "most_positive_imbalanced_pressure":0.059259259,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":2.115384615,
+    "most_negative_imbalanced_avg_return":0.615384615,
+    "most_negative_imbalanced_pressure":-0.1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.18323,39.95472 ]
+    },
+    "properties": {
+    "ID":3022,
+    "Name":"Amtrak 30th Street Station",
+    "Docks":21,
+    "cluster_weekday":3,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":84.13846154,
+    "station_avg_ridership_weekend":61.28846154,
+    "station_avg_ridership_cluster_weekday":1,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":7,
+    "final_cluster_weekend":8,
+    "most_positive_imbalanced_weekday":"Wednesday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":3.185185185,
+    "most_positive_imbalanced_avg_return":7.074074074,
+    "most_positive_imbalanced_pressure":0.185185185,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":7.076923077,
+    "most_negative_imbalanced_avg_return":3,
+    "most_negative_imbalanced_pressure":-0.194139194
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.16691,39.94019 ]
+    },
+    "properties": {
+    "ID":3086,
+    "Name":"Broad & Christian",
+    "Docks":21,
+    "cluster_weekday":1,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":38.04985755,
+    "station_avg_ridership_weekend":34.44230769,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":2,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":18,
+    "most_positive_imbalanced_avg_checkout":1,
+    "most_positive_imbalanced_avg_return":3.653846154,
+    "most_positive_imbalanced_pressure":0.126373626,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":4.769230769,
+    "most_negative_imbalanced_avg_return":0.923076923,
+    "most_negative_imbalanced_pressure":-0.183150183
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.16711,39.93549 ]
+    },
+    "properties": {
+    "ID":3068,
+    "Name":"Broad & Federal",
+    "Docks":18,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":46.61221652,
+    "station_avg_ridership_weekend":40.44,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":3,
+    "final_cluster_weekend":6,
+    "most_positive_imbalanced_weekday":"Friday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":0.961538462,
+    "most_positive_imbalanced_avg_return":3.961538462,
+    "most_positive_imbalanced_pressure":0.166666667,
+    "most_negative_imbalanced_weekday":"Wednesday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":4.777777778,
+    "most_negative_imbalanced_avg_return":1.074074074,
+    "most_negative_imbalanced_pressure":-0.205761317
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.1597,39.97121 ]
+    },
+    "properties": {
+    "ID":3039,
+    "Name":"Broad & Girard",
+    "Docks":19,
+    "cluster_weekday":2,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":26.92136752,
+    "station_avg_ridership_weekend":22.42307692,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":6,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":19,
+    "most_positive_imbalanced_avg_checkout":1.153846154,
+    "most_positive_imbalanced_avg_return":2.076923077,
+    "most_positive_imbalanced_pressure":0.048582996,
+    "most_negative_imbalanced_weekday":"Friday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":1.923076923,
+    "most_negative_imbalanced_avg_return":0.269230769,
+    "most_negative_imbalanced_pressure":-0.087044534
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15813,39.97669 ]
+    },
+    "properties": {
+    "ID":3056,
+    "Name":"Broad & Oxford",
+    "Docks":23,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":38.48917379,
+    "station_avg_ridership_weekend":36.28846154,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Sunday",
+    "most_positive_imbalanced_hour":18,
+    "most_positive_imbalanced_avg_checkout":0.884615385,
+    "most_positive_imbalanced_avg_return":2.115384615,
+    "most_positive_imbalanced_pressure":0.053511706,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":2.769230769,
+    "most_negative_imbalanced_avg_return":1.384615385,
+    "most_negative_imbalanced_pressure":-0.060200669
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15716,39.93935 ]
+    },
+    "properties": {
+    "ID":3030,
+    "Name":"Darien & Catharine",
+    "Docks":29,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":56.02535613,
+    "station_avg_ridership_weekend":57.05769231,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":3,
+    "final_cluster_weekend":5,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":1.461538462,
+    "most_positive_imbalanced_avg_return":5.692307692,
+    "most_positive_imbalanced_pressure":0.145888594,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":6.961538462,
+    "most_negative_imbalanced_avg_return":0.730769231,
+    "most_negative_imbalanced_pressure":-0.214854111
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.19419,39.96271 ]
+    },
+    "properties": {
+    "ID":3035,
+    "Name":"Dornsife Center",
+    "Docks":20,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":14.3161039,
+    "station_avg_ridership_weekend":14.73376623,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":20,
+    "most_positive_imbalanced_avg_checkout":0.192307692,
+    "most_positive_imbalanced_avg_return":0.884615385,
+    "most_positive_imbalanced_pressure":0.034615385,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":1.346153846,
+    "most_negative_imbalanced_avg_return":0,
+    "most_negative_imbalanced_pressure":-0.067307692
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.16125,39.96718 ]
+    },
+    "properties": {
+    "ID":3075,
+    "Name":"Fairmount & Ridge",
+    "Docks":12,
+    "cluster_weekday":1,
+    "cluster_weekend":2,
+    "station_avg_ridership_weekday":23.33492593,
+    "station_avg_ridership_weekend":22.59455128,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":2,
+    "final_cluster_weekend":6,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":18,
+    "most_positive_imbalanced_avg_checkout":1.192307692,
+    "most_positive_imbalanced_avg_return":1.846153846,
+    "most_positive_imbalanced_pressure":0.054487179,
+    "most_negative_imbalanced_weekday":"Thursday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":2.037037037,
+    "most_negative_imbalanced_avg_return":0.37037037,
+    "most_negative_imbalanced_pressure":-0.138888889
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.1425,39.94509 ]
+    },
+    "properties": {
+    "ID":3049,
+    "Name":"Foglietta Plaza",
+    "Docks":29,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":26.5038433,
+    "station_avg_ridership_weekend":61.09615385,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":2,
+    "most_positive_imbalanced_weekday":"Saturday",
+    "most_positive_imbalanced_hour":11,
+    "most_positive_imbalanced_avg_checkout":1.192307692,
+    "most_positive_imbalanced_avg_return":2.538461538,
+    "most_positive_imbalanced_pressure":0.046419098,
+    "most_negative_imbalanced_weekday":"Sunday",
+    "most_negative_imbalanced_hour":10,
+    "most_negative_imbalanced_avg_checkout":1.653846154,
+    "most_negative_imbalanced_avg_return":0.615384615,
+    "most_negative_imbalanced_pressure":-0.035809019
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.17036,39.95923 ]
+    },
+    "properties": {
+    "ID":3060,
+    "Name":"Free Library of Philadelphia - Central Library",
+    "Docks":19,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":36.5488604,
+    "station_avg_ridership_weekend":35.23846154,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Saturday",
+    "most_positive_imbalanced_hour":11,
+    "most_positive_imbalanced_avg_checkout":0.961538462,
+    "most_positive_imbalanced_avg_return":2.346153846,
+    "most_positive_imbalanced_pressure":0.072874494,
+    "most_negative_imbalanced_weekday":"Thursday",
+    "most_negative_imbalanced_hour":20,
+    "most_negative_imbalanced_avg_checkout":1.296296296,
+    "most_negative_imbalanced_avg_return":0.481481481,
+    "most_negative_imbalanced_pressure":-0.04288499
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.14541,39.93445 ]
+    },
+    "properties": {
+    "ID":3072,
+    "Name":"Front & Carpenter",
+    "Docks":25,
+    "cluster_weekday":1,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":34.35275214,
+    "station_avg_ridership_weekend":35.53846154,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":2,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":18,
+    "most_positive_imbalanced_avg_checkout":0.730769231,
+    "most_positive_imbalanced_avg_return":4.153846154,
+    "most_positive_imbalanced_pressure":0.136923077,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":3.307692308,
+    "most_negative_imbalanced_avg_return":0.423076923,
+    "most_negative_imbalanced_pressure":-0.115384615
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.15171,39.9707 ]
+    },
+    "properties": {
+    "ID":3065,
+    "Name":"Girard & Hutchinson",
+    "Docks":15,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":7.202774929,
+    "station_avg_ridership_weekend":5.77076087,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Friday",
+    "most_positive_imbalanced_hour":19,
+    "most_positive_imbalanced_avg_checkout":0.038461538,
+    "most_positive_imbalanced_avg_return":0.576923077,
+    "most_positive_imbalanced_pressure":0.035897436,
+    "most_negative_imbalanced_weekday":"Friday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":1.307692308,
+    "most_negative_imbalanced_avg_return":0,
+    "most_negative_imbalanced_pressure":-0.087179487
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.13546,39.96849 ]
+    },
+    "properties": {
+    "ID":3041,
+    "Name":"Girard Station  MFL",
+    "Docks":19,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":23.89784615,
+    "station_avg_ridership_weekend":33.13461538,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":0.307692308,
+    "most_positive_imbalanced_avg_return":2.846153846,
+    "most_positive_imbalanced_pressure":0.133603239,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":1.307692308,
+    "most_negative_imbalanced_avg_return":0.346153846,
+    "most_negative_imbalanced_pressure":-0.050607287
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.14921,39.95071 ]
+    },
+    "properties": {
+    "ID":3047,
+    "Name":"Independence Mall  NPS",
+    "Docks":20,
+    "cluster_weekday":3,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":50.10499145,
+    "station_avg_ridership_weekend":57.58,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":9,
+    "final_cluster_weekend":8,
+    "most_positive_imbalanced_weekday":"Wednesday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":0.37037037,
+    "most_positive_imbalanced_avg_return":5.333333333,
+    "most_positive_imbalanced_pressure":0.248148148,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":5.269230769,
+    "most_negative_imbalanced_avg_return":1,
+    "most_negative_imbalanced_pressure":-0.213461538
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.16374,39.95378 ]
+    },
+    "properties": {
+    "ID":3004,
+    "Name":"Municipal Services Building Plaza",
+    "Docks":25,
+    "cluster_weekday":3,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":75.55185185,
+    "station_avg_ridership_weekend":60.97461538,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":9,
+    "final_cluster_weekend":8,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":0.692307692,
+    "most_positive_imbalanced_avg_return":7.730769231,
+    "most_positive_imbalanced_pressure":0.281538462,
+    "most_negative_imbalanced_weekday":"Friday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":7.038461538,
+    "most_negative_imbalanced_avg_return":2.153846154,
+    "most_negative_imbalanced_pressure":-0.195384615
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.16138,39.95424 ]
+    },
+    "properties": {
+    "ID":3037,
+    "Name":"Pennsylvania Convention Center",
+    "Docks":21,
+    "cluster_weekday":2,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":36.80802279,
+    "station_avg_ridership_weekend":36.92307692,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":9,
+    "most_positive_imbalanced_weekday":"Wednesday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":0.444444444,
+    "most_positive_imbalanced_avg_return":3.037037037,
+    "most_positive_imbalanced_pressure":0.12345679,
+    "most_negative_imbalanced_weekday":"Thursday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":2.62962963,
+    "most_negative_imbalanced_avg_return":0.481481481,
+    "most_negative_imbalanced_pressure":-0.102292769
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.17999,39.96442 ]
+    },
+    "properties": {
+    "ID":3057,
+    "Name":"Philadelphia Museum of Art",
+    "Docks":13,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":63.43181818,
+    "station_avg_ridership_weekend":126.5328947,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":1,
+    "final_cluster_weekday":6,
+    "final_cluster_weekend":1,
+    "most_positive_imbalanced_weekday":"Wednesday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":1.444444444,
+    "most_positive_imbalanced_avg_return":3.185185185,
+    "most_positive_imbalanced_pressure":0.133903134,
+    "most_negative_imbalanced_weekday":"Wednesday",
+    "most_negative_imbalanced_hour":7,
+    "most_negative_imbalanced_avg_checkout":2.851851852,
+    "most_negative_imbalanced_avg_return":0.518518519,
+    "most_negative_imbalanced_pressure":-0.179487179
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.18154,39.93231 ]
+    },
+    "properties": {
+    "ID":3053,
+    "Name":"Point Breeze & Tasker",
+    "Docks":19,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":18.55754986,
+    "station_avg_ridership_weekend":16.38307692,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":18,
+    "most_positive_imbalanced_avg_checkout":0.5,
+    "most_positive_imbalanced_avg_return":1.692307692,
+    "most_positive_imbalanced_pressure":0.062753036,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":1.923076923,
+    "most_negative_imbalanced_avg_return":0.653846154,
+    "most_negative_imbalanced_pressure":-0.066801619
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.17286,39.95048 ]
+    },
+    "properties": {
+    "ID":3023,
+    "Name":"Rittenhouse Square",
+    "Docks":21,
+    "cluster_weekday":2,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":144.0786325,
+    "station_avg_ridership_weekend":187.1623077,
+    "station_avg_ridership_cluster_weekday":1,
+    "station_avg_ridership_cluster_weekend":1,
+    "final_cluster_weekday":4,
+    "final_cluster_weekend":7,
+    "most_positive_imbalanced_weekday":"Friday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":5.115384615,
+    "most_positive_imbalanced_avg_return":8.576923077,
+    "most_positive_imbalanced_pressure":0.164835165,
+    "most_negative_imbalanced_weekday":"Sunday",
+    "most_negative_imbalanced_hour":16,
+    "most_negative_imbalanced_avg_checkout":10.46153846,
+    "most_negative_imbalanced_avg_return":7,
+    "most_negative_imbalanced_pressure":-0.164835165
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.1742,39.9625 ]
+    },
+    "properties": {
+    "ID":3054,
+    "Name":"Rodin Museum",
+    "Docks":15,
+    "cluster_weekday":1,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":41.31492877,
+    "station_avg_ridership_weekend":49.08307692,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":2,
+    "final_cluster_weekend":2,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":1.576923077,
+    "most_positive_imbalanced_avg_return":4.615384615,
+    "most_positive_imbalanced_pressure":0.202564103,
+    "most_negative_imbalanced_weekday":"Wednesday",
+    "most_negative_imbalanced_hour":8,
+    "most_negative_imbalanced_avg_checkout":3.37037037,
+    "most_negative_imbalanced_avg_return":0.222222222,
+    "most_negative_imbalanced_pressure":-0.209876543
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.16174,39.96265 ]
+    },
+    "properties": {
+    "ID":3059,
+    "Name":"Spring Garden Station  BSL",
+    "Docks":21,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":42.648,
+    "station_avg_ridership_weekend":44.17307692,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":2,
+    "final_cluster_weekday":6,
+    "final_cluster_weekend":2,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":19,
+    "most_positive_imbalanced_avg_checkout":0.884615385,
+    "most_positive_imbalanced_avg_return":2.846153846,
+    "most_positive_imbalanced_pressure":0.093406593,
+    "most_negative_imbalanced_weekday":"Tuesday",
+    "most_negative_imbalanced_hour":10,
+    "most_negative_imbalanced_avg_checkout":1.423076923,
+    "most_negative_imbalanced_avg_return":0.307692308,
+    "most_negative_imbalanced_pressure":-0.053113553
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.13983,39.96062 ]
+    },
+    "properties": {
+    "ID":3070,
+    "Name":"Spring Garden Station  MFL",
+    "Docks":21,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":22.01339031,
+    "station_avg_ridership_weekend":36.65384615,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":17,
+    "most_positive_imbalanced_avg_checkout":0.5,
+    "most_positive_imbalanced_avg_return":1.807692308,
+    "most_positive_imbalanced_pressure":0.062271062,
+    "most_negative_imbalanced_weekday":"Friday",
+    "most_negative_imbalanced_hour":22,
+    "most_negative_imbalanced_avg_checkout":1.346153846,
+    "most_negative_imbalanced_avg_return":0.5,
+    "most_negative_imbalanced_pressure":-0.04029304
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.14973,39.98082 ]
+    },
+    "properties": {
+    "ID":3008,
+    "Name":"Temple University Station",
+    "Docks":19,
+    "cluster_weekday":2,
+    "cluster_weekend":1,
+    "station_avg_ridership_weekday":12.78990598,
+    "station_avg_ridership_weekend":8.557619048,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":3,
+    "most_positive_imbalanced_weekday":"Wednesday",
+    "most_positive_imbalanced_hour":9,
+    "most_positive_imbalanced_avg_checkout":0.148148148,
+    "most_positive_imbalanced_avg_return":1.037037037,
+    "most_positive_imbalanced_pressure":0.046783626,
+    "most_negative_imbalanced_weekday":"Thursday",
+    "most_negative_imbalanced_hour":16,
+    "most_negative_imbalanced_avg_checkout":0.888888889,
+    "most_negative_imbalanced_avg_return":0.296296296,
+    "most_negative_imbalanced_pressure":-0.031189084
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.19409,39.94781 ]
+    },
+    "properties": {
+    "ID":3038,
+    "Name":"The Children's Hospital of Philadelphia (CHOP)",
+    "Docks":15,
+    "cluster_weekday":3,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":46.00655271,
+    "station_avg_ridership_weekend":18.19230769,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":9,
+    "final_cluster_weekend":9,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":0.038461538,
+    "most_positive_imbalanced_avg_return":5,
+    "most_positive_imbalanced_pressure":0.330769231,
+    "most_negative_imbalanced_weekday":"Thursday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":5.37037037,
+    "most_negative_imbalanced_avg_return":0.444444444,
+    "most_negative_imbalanced_pressure":-0.328395062
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.18986,39.94887 ]
+    },
+    "properties": {
+    "ID":3020,
+    "Name":"University City Station",
+    "Docks":35,
+    "cluster_weekday":3,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":72.34729345,
+    "station_avg_ridership_weekend":30.99769231,
+    "station_avg_ridership_cluster_weekday":3,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":9,
+    "final_cluster_weekend":9,
+    "most_positive_imbalanced_weekday":"Tuesday",
+    "most_positive_imbalanced_hour":8,
+    "most_positive_imbalanced_avg_checkout":1.423076923,
+    "most_positive_imbalanced_avg_return":8.346153846,
+    "most_positive_imbalanced_pressure":0.197802198,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":11.80769231,
+    "most_negative_imbalanced_avg_return":1.923076923,
+    "most_negative_imbalanced_pressure":-0.282417582
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.14403,39.94733 ]
+    },
+    "properties": {
+    "ID":3005,
+    "Name":"Welcome Park  NPS",
+    "Docks":13,
+    "cluster_weekday":2,
+    "cluster_weekend":3,
+    "station_avg_ridership_weekday":24.18660969,
+    "station_avg_ridership_weekend":39.57692308,
+    "station_avg_ridership_cluster_weekday":2,
+    "station_avg_ridership_cluster_weekend":3,
+    "final_cluster_weekday":5,
+    "final_cluster_weekend":9,
+    "most_positive_imbalanced_weekday":"Monday",
+    "most_positive_imbalanced_hour":9,
+    "most_positive_imbalanced_avg_checkout":0.153846154,
+    "most_positive_imbalanced_avg_return":1.538461538,
+    "most_positive_imbalanced_pressure":0.106508876,
+    "most_negative_imbalanced_weekday":"Monday",
+    "most_negative_imbalanced_hour":17,
+    "most_negative_imbalanced_avg_checkout":2.461538462,
+    "most_negative_imbalanced_avg_return":0.538461538,
+    "most_negative_imbalanced_pressure":-0.147928994
+    }
+  }
+]
+}
