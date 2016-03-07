@@ -89,6 +89,19 @@ a:hover{
   background-color:#FDF300;
 }
 
+#most_active, #positive_imbalance_pressure, #most_positive_imbalanced{
+  background-color:#FD3500;
+}
+
+#least_active, #negative_imbalanced_pressure, #least_active_imbalanced{
+  background-color:#0F4AA7;
+}
+
+li{
+  font-size: 18px;
+  margin: 12px 0px;
+}
+
 .graph_index{
   text-align: right;
   position:absolute;

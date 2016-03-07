@@ -16,13 +16,13 @@
       <h1>Philadelphia Bikeshare Usage Pattern</h1>
       <p>
         Philadelphia's bike share system, Indego, has gained wide popularity in the city.
-        First launched in April, 2015, the accumulated ridership has exceed 400,000 in less than a year.
-        The trip record has also been made available on <a href="https://www.opendataphilly.org/dataset/indego-bike-share-trips">OpenDataPhilly</a> and <a href="https://www.rideindego.com/about/data/">Indeogo's official website</a>.
+        First launched in April 2015, the accumulated ridership has exceeded 400,000 in less than a year.
+        The trip data have been made available on <a href="https://www.opendataphilly.org/dataset/indego-bike-share-trips">OpenDataPhilly</a> and <a href="https://www.rideindego.com/about/data/">Indeogo's official website</a>.
       </p>
       <p>
-        This story map explores temporal usage pattern and total activities at each station.
-        Trip records during the first three months are excluded in order to produce more reliable results.
-        Through this story map, we can understand the trip pattern during weekday and weekend, and evaluate whether existed station sizes meet user demands.
+        This story map explores the pattern of temporal imbalance pressure and total activities for every Indego station.
+        Trip records during the first three months are excluded to produce more reliable results.
+        Through this story map, we can understand the trip pattern on weekdays and weekends, and evaluate whether existed station sizes meet user demands.
       </p>
       <br />
       <br />
@@ -35,13 +35,18 @@
     <div id="second_slide" style="display: none;">
       <h1>Weekday Usage Pattern</h1>
       <p>
-        Imbalance pressure reflects how well the number of checkout and return can balanced each other.
+        Imbalance pressure reflects how well the number of checkout and return can balance each other.
       </p>
       <p>
-        Here we define imbalance pressure as: (Number of Return - Number of Checkout) / Station size
+        Here, we define imbalance pressure as: (Number of Return - Number of Checkout) / Station size
       </p>
       <p>
-        Using k-means clustering method, we identified 3 weekday temporal clusters.
+        We summarize trip records of each station by a time stamp of 1 hour for every weekday from July 1st to December 31st.
+        Then, for every hour, we calculate the average number of checkout, return, and imbalance pressure.
+        This leads to 120 time series values of weekday checkout/return/imbalance pressure and 48 values on weekends for every station.
+      </p>
+      <p>
+        Using k-means clustering method, we identified 3 weekday temporal clusters based on the value of imbalance pressure.
       </p>
       <br />
       <br />
@@ -63,39 +68,39 @@
     </div>
 
     <div id="third_slide" style="display: none;">
-      <h1>Weekday Usage Pattern 1: <br /> AM Outflow, PM Inflow</h1>
+      <h1>Weekday Usage Pattern 1 :<br /> AM Outflow, PM Inflow</h1>
       <p>
-        The following time series graph show the average imbalance pressure of these stations by hour.
+        The following time series graph shows the average imbalance pressure of these stations by hour.
       </p>
       <br />
       <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/10.embed?share_key=BB3KVei5LC3qoAeNIkU5hl"></iframe>
-      <p class="graph_index"> Graph 3: First weekday temporal cluster group</p>
+      <p class="graph_index"> Graph 3: Weekday temporal cluster group 1</p>
     </div>
 
     <div id="forth_slide" style="display: none;">
-      <h1>Weekday Usage Pattern 2: <br /> Balanced (Slight AM Outflow)</h1>
+      <h1>Weekday Usage Pattern 2 :<br /> Balanced (Slight AM Outflow)</h1>
       <p>
-        The following time series graph show the average imbalance pressure of these stations by hour.
+        The following time series graph shows the average imbalance pressure of these stations by hour.
       </p>
       <br />
-      <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/18.embed"></iframe>
-      <p class="graph_index"> Graph 4: Second weekday temporal cluster group</p>
+      <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/12.embed"></iframe>
+      <p class="graph_index"> Graph 4: Weekday temporal cluster group 2</p>
     </div>
 
     <div id="fifth_slide" style="display: none;">
-      <h1>Weekday Usage Pattern 3: <br /> AM Inflow, PM Outflow</h1>
+      <h1>Weekday Usage Pattern 3 :<br /> AM Inflow, PM Outflow</h1>
       <p>
-        The following time series graph show the average imbalance pressure of these stations by hour.
+        The following time series graph shows the average imbalance pressure of these stations by hour.
       </p>
       <br />
       <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/11.embed"></iframe>
-      <p class="graph_index"> Graph 5: Third weekday temporal cluster group</p>
+      <p class="graph_index"> Graph 5: Weekday temporal cluster group 3</p>
     </div>
 
     <div id="sixth_slide" style="display: none;">
       <h1>Weekend Usage Pattern</h1>
       <p>
-        Using k-means clustering method, we also identified 3 weekday temporal clusters.
+        Using k-means clustering method, we also identified 3 weekend temporal clusters.
       </p>
       <div class="legend">
         <div>
@@ -115,51 +120,67 @@
     </div>
 
     <div id="seventh_slide" style="display: none;">
-      <h1>Weekend Usage Pattern 1: <br /> Balanced </h1>
+      <h1>Weekend Usage Pattern 1 :<br /> Balanced </h1>
       <p>
-        The following time series graph show the average imbalance pressure of these stations by hour.
+        The following time series graph shows the average imbalance pressure of these stations by hour.
       </p>
       <br />
       <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/15.embed"></iframe>
-      <p class="graph_index"> Graph 7: First weekend temporal cluster group</p>
+      <p class="graph_index"> Graph 7: Weekend temporal cluster group 1</p>
     </div>
 
     <div id="eighth_slide" style="display: none;">
-      <h1>Weekend Usage Pattern 2: <br /> Slight AM Outflow </h1>
+      <h1>Weekend Usage Pattern 2 :<br /> Slight AM Outflow </h1>
       <p>
-        The following time series graph show the average imbalance pressure of these stations by hour.
+        The following time series graph shows the average imbalance pressure of these stations by hour.
       </p>
+      <br />
       <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/18.embed"></iframe>
-      <p class="graph_index"> Graph 8: Second weekend temporal cluster group</p>
+      <p class="graph_index"> Graph 8: Weekend temporal cluster group 2</p>
     </div>
 
     <div id="ninth_slide" style="display: none;">
-      <h1>Weekend Usage Pattern 2: <br /> Slight AM Inflow </h1>
+      <h1>Weekend Usage Pattern 3 :<br /> Slight AM Inflow </h1>
       <p>
-        The following time series graph show the average imbalance pressure of these stations by hour.
+        The following time series graph shows the average imbalance pressure of these stations by hour.
       </p>
       <br />
       <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/21.embed"></iframe>
-      <p class="graph_index"> Graph 9: Third weekend temporal cluster group</p>
+      <p class="graph_index"> Graph 9: Weekend temporal cluster group 3</p>
     </div>
 
     <div id="tenth_slide" style="display: none;">
       <h1>Average Weekday Activities</h1>
       <p>
-        Total number of check out and return reflects how active a station is.
+        The average total number of check out and return reflects how active a station is.
+        Notice that we did not divide the total activities by station size here.
       </p>
       <p>
         Using k-means clustering method, we grouped all stations from highly used to lowly used.
       </p>
-      <p class="graph_index"> Graph 10: Average weekday activities</p>
+      <p class="graph_index"> Graph 10: Average weekday activities<br /><em>Click on stations to see detail number of station activities</em></p>
     </div>
 
     <div id="eleventh_slide" style="display: none;">
       <h1>Average Weekend Activities</h1>
       <p>
-        Again, we grouped all stations from highly used to lowly used based on average weekday activities.
+        Again, we grouped all stations from highly used to lowly used based on average weekend activities.
       </p>
-      <p class="graph_index"> Graph 11: Average weekend activities</p>
+      <p>
+        By comparing weekday and weekend activity maps, we can spot several noticeable changes.
+        <ul>
+          <li>
+            Philadelphia Museum of Art station belongs to the "lowly used" group on weekdays but belongs to "highly used" group on weekends.
+          </li>
+          <li>
+            Total activity at the Amtrak 30th Street station is lower during weekends.
+          </li>
+          <li>
+            Total activity at the 18th & JFK station is also lower during weekends.
+          </li>
+        </ul>
+      </p>
+      <p class="graph_index"> Graph 11: Average weekend activities<br /><em>Click on stations to see detail number of station activities</em></p>
     </div>
 
     <div id="twelfth_slide" style="display: none;">
@@ -168,6 +189,14 @@
         Combining usage pattern and average activities information together,
         we can see what types of temporal imbalance pressure each station belongs to,
         and whether it is highly used or not.
+      </p>
+      <p>
+        An ideal usage pattern of bike share system is that number of checkout and return can balance each other at every station.
+        However, this is often not the case since people can borrow/return at different stations, and since some places are major trip destinations and some others are major trip origins.
+      </p>
+      <p>
+        Maintain appropriate occupancy rate to relieve the imbalance pressure is therefore very important, especially for those stations that are highly used and face high imbalance pressure during peak hours.
+        For this type of stations, another way is to expand the station size so that more bikes or docks and be reserved.
       </p>
       <div class="legend">
         <div>
@@ -183,7 +212,7 @@
           <p><b>Group 3:</b> AM Inflow, PM Outflow</p>
         </div>
       </div>
-      <p class="graph_index"> Graph 12: Weekday temporal cluster groups <br />by average activities</p>
+      <p class="graph_index"> Graph 12: Weekday temporal cluster groups<br />by average activities</p>
     </div>
 
     <div id="thirteenth_slide" style="display: none;">
@@ -205,23 +234,43 @@
           <p><b>Group 3:</b> Slight AM Inflow</p>
         </div>
       </div>
-      <p class="graph_index"> Graph 13: Weekend temporal cluster groups <br />by average activities</p>
+      <p class="graph_index"> Graph 13: Weekend temporal cluster groups<br />by average activities</p>
     </div>
 
     <div id="forteenth_slide" style="display: none;">
-      <h1>The Most Active & the Least Active Station in weekdays</h1>
+      <h1>The Most Active & the Least Active Station on Weekdays</h1>
       <p>
-        During the weekdays, the Rittenhouse Square station is the most active stations and the 11th & Poplar John F. Street Community Center station is the least active station.
+        During the weekdays, the Rittenhouse Square station and the 11th & Poplar John F. Street Community Center station are the most active and the least active station respectively.
       </p>
-      <p class="graph_index"> Graph 14: Which stations are the most/least active ones <br /> during weekdays?</p>
+      <div class="legend">
+        <div>
+          <div id="most_active" class="small_legend"></div>
+          <p>The most active station on weekdays</p>
+        </div>
+        <div>
+          <div id="least_active" class="small_legend"></div>
+          <p>The least active station on weekdays</p>
+        </div>
+      </div>
+      <p class="graph_index"> Graph 14: Which stations are the most/least active ones<br />during weekdays?</p>
     </div>
 
     <div id="fifteenth_slide" style="display: none;">
-      <h1>The Most Active & the Least Active Station in weekends</h1>
+      <h1>The Most Active & the Least Active Station on Weekends</h1>
       <p>
-        Surprise! During the weekends, the Rittenhouse Square station and the 11th & Poplar John F. Street Community Center station is again the most and the least active stations.
+        Surprise! During the weekends, the Rittenhouse Square station and the 11th & Poplar John F. Street Community Center station are again the most and the least active stations.
       </p>
-      <p class="graph_index"> Graph 15: Which stations are the most/least active ones <br /> during weekends?</p>
+      <div class="legend">
+        <div>
+          <div id="most_active" class="small_legend"></div>
+          <p>The most active station on weekends</p>
+        </div>
+        <div>
+          <div id="least_active" class="small_legend"></div>
+          <p>The least active station on weekends</p>
+        </div>
+      </div>
+      <p class="graph_index"> Graph 15: Which stations are the most/least active ones<br />during weekends?</p>
     </div>
 
     <div id="sixteenth_slide" style="display: none;">
@@ -229,23 +278,44 @@
       <p>
         Click on the stations to see their most imbalanced time.
       </p>
-      <p class="graph_index"> Graph 16: The Most Imbalanced Time for Every Station</p>
+      <div class="legend">
+        <div>
+          <div id="positive_imbalance_pressure" class="small_legend"></div>
+          <p>The most imbalanced value is a positive number</p>
+        </div>
+        <div>
+          <div id="negative_imbalanced_pressure" class="small_legend"></div>
+          <p>The most imbalanced value is a negative number</p>
+        </div>
+      </div>
+      <p class="graph_index"> Graph 16: The most imbalanced time for every station</p>
     </div>
 
     <div id="seventeenth_slide" style="display: none;">
-      <h1>When and Where Does The Highest Imbalanced Pressure Happen?</h1>
+      <h1>When and Where Does The Highest Imbalance Pressure Happened?</h1>
       <p>
-        The highest imbalanced pressure for the whole system happen at the 18th & JFK station and the 3rd & Girard station.
+        The highest imbalance pressure for the whole system happened at the 18th & JFK station and the 3rd & Girard station.
         Click on the stations to see more.
       </p>
-      <p class="graph_index"> Graph 16: The Most Imbalanced Time for Every Station</p>
+      <div class="legend">
+        <div>
+          <div id="most_positive_imbalanced" class="small_legend"></div>
+          <p>The station that has the highest positive imbalance pressure</p>
+        </div>
+        <div>
+          <div id="least_active_imbalanced" class="small_legend"></div>
+          <p>The station that has the lowest negative imbalance pressure</p>
+        </div>
+      </div>
+      <p class="graph_index"> Graph 17: Stations that have the highest/lowest<br />positive/negative imbalance pressure</p>
     </div>
 
     <div id="eighteenth_slide" style="display: none;">
-      <h1>Explore Yourself !</h1>
+      <h1>Explore by Yourself !</h1>
       <p>
         Click on the map to see all the station information.
       </p>
+      <p class="graph_index"> Graph 18: All station information</p>
     </div>
 
     <div>

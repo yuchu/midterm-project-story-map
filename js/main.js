@@ -172,13 +172,13 @@ $(document).ready(function() {
       case 14: layer.bindPopup((feature.properties.Name).concat("<br>","Average weekday ridership: ", feature.properties.station_avg_ridership_weekday.toFixed(2))); break;
       case 15: layer.bindPopup((feature.properties.Name).concat("<br>","Average weekend ridership: ", feature.properties.station_avg_ridership_weekend.toFixed(2))); break;
       case 16: if(feature.properties.most_positive_imbalanced_pressure > Math.abs(feature.properties.most_negative_imbalanced_pressure)){
-                  layer.bindPopup((feature.properties.Name).concat("<br>","Highest positive imbalanced pressure: ", feature.properties.most_positive_imbalanced_pressure.toFixed(2),
+                  layer.bindPopup((feature.properties.Name).concat("<br>","Highest positive imbalance pressure: ", feature.properties.most_positive_imbalanced_pressure.toFixed(2),
                   "<br>","Weekday: ",feature.properties.most_positive_imbalanced_weekday,
                   "<br>","Hour: ", feature.properties.most_positive_imbalanced_hour,
                   "<br>","Average checkout: ", feature.properties.most_positive_imbalanced_avg_checkout.toFixed(2),
                   "<br>","Average return: ", feature.properties.most_positive_imbalanced_avg_return.toFixed(2)));
                }else{
-                 layer.bindPopup((feature.properties.Name).concat("<br>","Lowest negative imbalanced pressure: ", feature.properties.most_negative_imbalanced_pressure.toFixed(2),
+                 layer.bindPopup((feature.properties.Name).concat("<br>","Lowest negative imbalance pressure: ", feature.properties.most_negative_imbalanced_pressure.toFixed(2),
                  "<br>","Weekday: ",feature.properties.most_negative_imbalanced_weekday,
                  "<br>","Hour: ", feature.properties.most_negative_imbalanced_hour,
                  "<br>","Average checkout: ", feature.properties.most_negative_imbalanced_avg_checkout.toFixed(2),
