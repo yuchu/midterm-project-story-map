@@ -5,14 +5,12 @@ body {
 }
 
 p {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .intro{
   font-size:26px;
 }
-
-
 
 a{
   color: #DDDDDD;
@@ -37,7 +35,7 @@ a:hover{
     left: 0px;
     width: 30%;
     top: 0;
-    bottom: 0;
+    bottom: 100px;
     overflow-y: auto;
     padding: 20px;
     font-size: 16px;
@@ -46,7 +44,7 @@ a:hover{
 }
 
 .legend{
-  position:absolute;
+  /*position:absolute;*/
   bottom:20%;
   left:5%;
 }
@@ -104,18 +102,26 @@ li{
 
 .graph_index{
   text-align: right;
-  position:absolute;
+  /*position:fixed;*/
   font-size: 20px;
-  right:5%;
-  bottom:12%;
+  /*right:5%;
+  bottom:12%;*/
+}
+
+.button_div{
+  position:fixed;
+  bottom:0;
+  left:0;
+  background-color: #BFBFBF;
+  height:55px;
+  width:30%;
 }
 
 .button{
   font-size:18px;
-  height: 5%;
-  width: 40%;
-  /*padding:11px 80px 11px;*/
-  margin:0 auto;
+  width: 45%;
+  padding: 10px 5%;
+  margin:5px auto;
   background-color:#666666;
   border: 0px;
   border-radius: 5%;
@@ -130,20 +136,29 @@ li{
 
 #previous_button{
   position: absolute;
-  bottom:6%;
-  left:5%;
+  display:inline-block;
+  margin-left: 2.5%;
 }
 
 #next_button{
   position: absolute;
-  bottom:6%;
-  left:50%;
+  display:inline-block;
+  margin-left: 52.5%;
 }
 
 .Author{
-  position:absolute;
+  position:fixed;
+  bottom:55px;
+  left:0;
+  height:50px;
+  width:30%;
+  background-color: #202020;
+  color: #BFBFBF;
+}
+
+.Author p{
+  margin-right: 10px;
   right:10px;
-  bottom:0px;
   text-align: right;
   font-size:12px;
 }
