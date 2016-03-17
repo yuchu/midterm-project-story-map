@@ -104,48 +104,45 @@ $(document).ready(function() {
 
   //// Activity cluster group deiscription
   var ActClusterDesc = function(cluster_num){
-    switch(cluster_num){
-      case 1: return "Highly used";
-      case 2: return "Medium used";
-      case 3: return "Lowly used";
+    if(cluster_num==1){
+      return "Highly used";
+    }else if(cluster_num==2){
+      return "Medium used";
+    }else{
+      return "Lowly used";
     }
   };
 
   //// Feature setting
   var eachFeature = function(feature, layer){
-    switch(slide_state){
-      case 1: layer.bindPopup((feature.properties.Name).concat("<br>","Total Docks: ",feature.properties.Docks)); break;
-      case 2: switch(feature.properties.cluster_weekday){
+    if(slide_state==1){
+      layer.bindPopup((feature.properties.Name).concat("<br>","Total Docks: ",feature.properties.Docks));
+    }else if(slide_state==2){
+      switch(feature.properties.cluster_weekday){
                 case 1: layer.bindPopup((feature.properties.Name).concat("<br>","Weekday temporal usage type: ", tempClusterDesc(1,1))); break;
                 case 2: layer.bindPopup((feature.properties.Name).concat("<br>","Weekday temporal usage type: ", tempClusterDesc(1,2))); break;
                 case 3: layer.bindPopup((feature.properties.Name).concat("<br>","Weekday temporal usage type: ", tempClusterDesc(1,3))); break;
-              }
-              break;
-      case 3: layer.bindPopup(feature.properties.Name); break;
-      case 4: layer.bindPopup(feature.properties.Name); break;
-      case 5: layer.bindPopup(feature.properties.Name); break;
-      case 6: switch(feature.properties.cluster_weekend){
+      }
+    }else if(slide_state==6){
+      switch(feature.properties.cluster_weekend){
                 case 1: layer.bindPopup((feature.properties.Name).concat("<br>","Weekend temporal usage type: ", tempClusterDesc(2,1))); break;
                 case 2: layer.bindPopup((feature.properties.Name).concat("<br>","Weekend temporal usage type: ", tempClusterDesc(2,2))); break;
                 case 3: layer.bindPopup((feature.properties.Name).concat("<br>","Weekend temporal usage type: ", tempClusterDesc(2,3))); break;
-              }
-              break;
-      case 7: layer.bindPopup(feature.properties.Name); break;
-      case 8: layer.bindPopup(feature.properties.Name); break;
-      case 9: layer.bindPopup(feature.properties.Name); break;
-      case 10: switch(feature.properties.station_avg_ridership_cluster_weekday){
+      }
+    }else if(slide_state==10){
+      switch(feature.properties.station_avg_ridership_cluster_weekday){
                  case 1: layer.bindPopup((feature.properties.Name).concat("<br>","Activity group: ",ActClusterDesc(1),"<br>","Average weekday activity: ", feature.properties.station_avg_ridership_weekday.toFixed(2))); break;
                  case 2: layer.bindPopup((feature.properties.Name).concat("<br>","Activity group: ",ActClusterDesc(2),"<br>","Average weekday activity: ", feature.properties.station_avg_ridership_weekday.toFixed(2))); break;
                  case 3: layer.bindPopup((feature.properties.Name).concat("<br>","Activity group: ",ActClusterDesc(3),"<br>","Average weekday activity: ", feature.properties.station_avg_ridership_weekday.toFixed(2))); break;
-               }
-               break;
-      case 11: switch(feature.properties.station_avg_ridership_cluster_weekend){
+      }
+    }else if(slide_state==11){
+      switch(feature.properties.station_avg_ridership_cluster_weekend){
                  case 1: layer.bindPopup((feature.properties.Name).concat("<br>","Activity group: ",ActClusterDesc(1),"<br>","Average weekday activity: ", feature.properties.station_avg_ridership_weekend.toFixed(2))); break;
                  case 2: layer.bindPopup((feature.properties.Name).concat("<br>","Activity group: ",ActClusterDesc(2),"<br>","Average weekday activity: ", feature.properties.station_avg_ridership_weekend.toFixed(2))); break;
                  case 3: layer.bindPopup((feature.properties.Name).concat("<br>","Activity group: ",ActClusterDesc(3),"<br>","Average weekday activity: ", feature.properties.station_avg_ridership_weekend.toFixed(2))); break;
-               }
-               break;
-      case 12: switch(feature.properties.final_cluster_weekday){
+      }
+    }else if(slide_state==12){
+      switch(feature.properties.final_cluster_weekday){
                  case 1: layer.bindPopup((feature.properties.Name).concat("<br>","Weekday temporal usage type: ", tempClusterDesc(1,1),"<br>","Activity group: ",ActClusterDesc(1))); break;
                  case 2: layer.bindPopup((feature.properties.Name).concat("<br>","Weekday temporal usage type: ", tempClusterDesc(1,1),"<br>","Activity group: ",ActClusterDesc(2))); break;
                  case 3: layer.bindPopup((feature.properties.Name).concat("<br>","Weekday temporal usage type: ", tempClusterDesc(1,1),"<br>","Activity group: ",ActClusterDesc(3))); break;
@@ -156,8 +153,8 @@ $(document).ready(function() {
                  case 8: layer.bindPopup((feature.properties.Name).concat("<br>","Weekday temporal usage type: ", tempClusterDesc(1,3),"<br>","Activity group: ",ActClusterDesc(2))); break;
                  case 9: layer.bindPopup((feature.properties.Name).concat("<br>","Weekday temporal usage type: ", tempClusterDesc(1,3),"<br>","Activity group: ",ActClusterDesc(3))); break;
                }
-               break;
-      case 13: switch(feature.properties.final_cluster_weekend){
+    }else if(slide_state==13){
+      switch(feature.properties.final_cluster_weekend){
                  case 1: layer.bindPopup((feature.properties.Name).concat("<br>","Weekend temporal usage type: ", tempClusterDesc(2,1),"<br>","Activity group: ",ActClusterDesc(1))); break;
                  case 2: layer.bindPopup((feature.properties.Name).concat("<br>","Weekend temporal usage type: ", tempClusterDesc(2,1),"<br>","Activity group: ",ActClusterDesc(2))); break;
                  case 3: layer.bindPopup((feature.properties.Name).concat("<br>","Weekend temporal usage type: ", tempClusterDesc(2,1),"<br>","Activity group: ",ActClusterDesc(3))); break;
@@ -168,38 +165,40 @@ $(document).ready(function() {
                  case 8: layer.bindPopup((feature.properties.Name).concat("<br>","Weekend temporal usage type: ", tempClusterDesc(2,3),"<br>","Activity group: ",ActClusterDesc(2))); break;
                  case 9: layer.bindPopup((feature.properties.Name).concat("<br>","Weekend temporal usage type: ", tempClusterDesc(2,3),"<br>","Activity group: ",ActClusterDesc(3))); break;
                }
-               break;
-      case 14: layer.bindPopup((feature.properties.Name).concat("<br>","Average weekday ridership: ", feature.properties.station_avg_ridership_weekday.toFixed(2))); break;
-      case 15: layer.bindPopup((feature.properties.Name).concat("<br>","Average weekend ridership: ", feature.properties.station_avg_ridership_weekend.toFixed(2))); break;
-      case 16: if(feature.properties.most_positive_imbalanced_pressure > Math.abs(feature.properties.most_negative_imbalanced_pressure)){
-                  layer.bindPopup((feature.properties.Name).concat("<br>","Highest positive imbalance pressure: ", feature.properties.most_positive_imbalanced_pressure.toFixed(2),
-                  "<br>","Weekday: ",feature.properties.most_positive_imbalanced_weekday,
-                  "<br>","Hour: ", feature.properties.most_positive_imbalanced_hour,
-                  "<br>","Average checkout: ", feature.properties.most_positive_imbalanced_avg_checkout.toFixed(2),
-                  "<br>","Average return: ", feature.properties.most_positive_imbalanced_avg_return.toFixed(2)));
-               }else{
-                 layer.bindPopup((feature.properties.Name).concat("<br>","Lowest negative imbalance pressure: ", feature.properties.most_negative_imbalanced_pressure.toFixed(2),
-                 "<br>","Weekday: ",feature.properties.most_negative_imbalanced_weekday,
-                 "<br>","Hour: ", feature.properties.most_negative_imbalanced_hour,
-                 "<br>","Average checkout: ", feature.properties.most_negative_imbalanced_avg_checkout.toFixed(2),
-                 "<br>","Average return: ", feature.properties.most_negative_imbalanced_avg_return.toFixed(2)));
-               }
-               break;
-      case 17: if(feature.properties.most_positive_imbalanced_pressure == getMaxPositiveImbalance){
-                 layer.bindPopup((feature.properties.Name).concat("<br>","Highest positive imbalance pressure: ",feature.properties.most_positive_imbalanced_pressure.toFixed(2),
-                 "<br>",'\u00A0','\u00A0','\u00A0',"Weekday: ", feature.properties.most_positive_imbalanced_weekday,
-                 "<br>",'\u00A0','\u00A0','\u00A0',"Hour: ", feature.properties.most_positive_imbalanced_hour,
-                 "<br>",'\u00A0','\u00A0','\u00A0',"Average checkout: ", feature.properties.most_positive_imbalanced_avg_checkout.toFixed(2),
-                 "<br>",'\u00A0','\u00A0','\u00A0',"Average return: ", feature.properties.most_positive_imbalanced_avg_return.toFixed(2)));
-               }else{
-                 layer.bindPopup((feature.properties.Name).concat("<br>","Lowest negative imbalance pressure: ",feature.properties.most_negative_imbalanced_pressure.toFixed(2),
-                 "<br>",'\u00A0','\u00A0','\u00A0',"Weekday: ", feature.properties.most_negative_imbalanced_weekday,
-                 "<br>",'\u00A0','\u00A0','\u00A0',"Hour: ", feature.properties.most_negative_imbalanced_hour,
-                 "<br>",'\u00A0','\u00A0','\u00A0',"Average checkout: ", feature.properties.most_negative_imbalanced_avg_checkout.toFixed(2),
-                 "<br>",'\u00A0','\u00A0','\u00A0',"Average return: ", feature.properties.most_negative_imbalanced_avg_return.toFixed(2)));
-               }
-               break;
-      case 18: layer.bindPopup((feature.properties.Name).concat("<br>","Docks: ", feature.properties.Docks,
+    }else if(slide_state==14){
+      layer.bindPopup((feature.properties.Name).concat("<br>","Average weekday ridership: ", feature.properties.station_avg_ridership_weekday.toFixed(2)));
+    }else if(slide_state==15){
+      layer.bindPopup((feature.properties.Name).concat("<br>","Average weekend ridership: ", feature.properties.station_avg_ridership_weekend.toFixed(2)));
+    }else if(slide_state==16){
+      if(feature.properties.most_positive_imbalanced_pressure > Math.abs(feature.properties.most_negative_imbalanced_pressure)){
+        layer.bindPopup((feature.properties.Name).concat("<br>","Highest positive imbalance pressure: ", feature.properties.most_positive_imbalanced_pressure.toFixed(2),
+        "<br>","Weekday: ",feature.properties.most_positive_imbalanced_weekday,
+        "<br>","Hour: ", feature.properties.most_positive_imbalanced_hour,
+        "<br>","Average checkout: ", feature.properties.most_positive_imbalanced_avg_checkout.toFixed(2),
+        "<br>","Average return: ", feature.properties.most_positive_imbalanced_avg_return.toFixed(2)));
+        }else{
+         layer.bindPopup((feature.properties.Name).concat("<br>","Lowest negative imbalance pressure: ", feature.properties.most_negative_imbalanced_pressure.toFixed(2),
+        "<br>","Weekday: ",feature.properties.most_negative_imbalanced_weekday,
+        "<br>","Hour: ", feature.properties.most_negative_imbalanced_hour,
+        "<br>","Average checkout: ", feature.properties.most_negative_imbalanced_avg_checkout.toFixed(2),
+        "<br>","Average return: ", feature.properties.most_negative_imbalanced_avg_return.toFixed(2)));
+        }
+    }else if(slide_state==17){
+      if(feature.properties.most_positive_imbalanced_pressure == getMaxPositiveImbalance){
+        layer.bindPopup((feature.properties.Name).concat("<br>","Highest positive imbalance pressure: ",feature.properties.most_positive_imbalanced_pressure.toFixed(2),
+        "<br>",'\u00A0','\u00A0','\u00A0',"Weekday: ", feature.properties.most_positive_imbalanced_weekday,
+        "<br>",'\u00A0','\u00A0','\u00A0',"Hour: ", feature.properties.most_positive_imbalanced_hour,
+        "<br>",'\u00A0','\u00A0','\u00A0',"Average checkout: ", feature.properties.most_positive_imbalanced_avg_checkout.toFixed(2),
+        "<br>",'\u00A0','\u00A0','\u00A0',"Average return: ", feature.properties.most_positive_imbalanced_avg_return.toFixed(2)));
+      }else{
+        layer.bindPopup((feature.properties.Name).concat("<br>","Lowest negative imbalance pressure: ",feature.properties.most_negative_imbalanced_pressure.toFixed(2),
+        "<br>",'\u00A0','\u00A0','\u00A0',"Weekday: ", feature.properties.most_negative_imbalanced_weekday,
+        "<br>",'\u00A0','\u00A0','\u00A0',"Hour: ", feature.properties.most_negative_imbalanced_hour,
+        "<br>",'\u00A0','\u00A0','\u00A0',"Average checkout: ", feature.properties.most_negative_imbalanced_avg_checkout.toFixed(2),
+         "<br>",'\u00A0','\u00A0','\u00A0',"Average return: ", feature.properties.most_negative_imbalanced_avg_return.toFixed(2)));
+        }
+    }else if(slide_state==18){
+      layer.bindPopup((feature.properties.Name).concat("<br>","Docks: ", feature.properties.Docks,
                 "<br>","Weekday temporal usage type: ",tempClusterDesc(1,feature.properties.cluster_weekday),
                 "<br>","Weekday activity group: ",ActClusterDesc(feature.properties.station_avg_ridership_cluster_weekday),
                 "<br>","Weekend temporal usage type: ",tempClusterDesc(2,feature.properties.cluster_weekend),
@@ -214,113 +213,68 @@ $(document).ready(function() {
                 "<br>",'\u00A0','\u00A0','\u00A0',"Hour: ", feature.properties.most_negative_imbalanced_hour,
                 "<br>",'\u00A0','\u00A0','\u00A0',"Average checkout: ", feature.properties.most_negative_imbalanced_avg_checkout.toFixed(2),
                 "<br>",'\u00A0','\u00A0','\u00A0',"Average return: ", feature.properties.most_negative_imbalanced_avg_return.toFixed(2)));
-               break;
+
+    }else{
+      layer.bindPopup(feature.properties.Name);
     }
   };
 
   //// markerFilter
   var markerFilter = function(feature, layer){
-    switch(slide_state){
-      case 1: return feature;
-      case 2: return feature;
-      case 3: return (feature.properties.cluster_weekday == 1);
-      case 4: return (feature.properties.cluster_weekday == 2);
-      case 5: return (feature.properties.cluster_weekday == 3);
-      case 6: return feature;
-      case 7: return (feature.properties.cluster_weekend == 1);
-      case 8: return (feature.properties.cluster_weekend == 2);
-      case 9: return (feature.properties.cluster_weekend == 3);
-      case 10: return feature;
-      case 11: return feature;
-      case 12: return feature;
-      case 13: return feature;
-      case 14: return ((feature.properties.station_avg_ridership_weekday == getMaxValueWeekday) | (feature.properties.station_avg_ridership_weekday == getMinValueWeekday));
-      case 15: return ((feature.properties.station_avg_ridership_weekend == getMaxValueWeekend) | (feature.properties.station_avg_ridership_weekend == getMinValueWeekend));
-      case 16: return feature;
-      case 17: return ((feature.properties.most_positive_imbalanced_pressure == getMaxPositiveImbalance) | (feature.properties.most_negative_imbalanced_pressure == getMaxNegativeImbalance));
-      case 18: return feature;
+    var result;
+    if(slide_state==3){
+      result = (feature.properties.cluster_weekday == 1);
+    }else if(slide_state==4){
+      result = (feature.properties.cluster_weekday == 2);
+    }else if(slide_state==5){
+      result = (feature.properties.cluster_weekday == 3);
+    }else if(slide_state==7){
+      result = (feature.properties.cluster_weekend == 1);
+    }else if(slide_state==8){
+      result = (feature.properties.cluster_weekend == 2);
+    }else if(slide_state==9){
+      result = (feature.properties.cluster_weekend == 3);
+    }else if(slide_state==14){
+      result = ((feature.properties.station_avg_ridership_weekday == getMaxValueWeekday) | (feature.properties.station_avg_ridership_weekday == getMinValueWeekday));
+    }else if(slide_state==15){
+      result = ((feature.properties.station_avg_ridership_weekend == getMaxValueWeekend) | (feature.properties.station_avg_ridership_weekend == getMinValueWeekend));
+    }else if(slide_state==17){
+      result = ((feature.properties.most_positive_imbalanced_pressure == getMaxPositiveImbalance) | (feature.properties.most_negative_imbalanced_pressure == getMaxNegativeImbalance));
+    }else{
+      result = feature;
     }
+    return result;
   };
 
   //// marker radius
   var markerRadius = function(feature){
-    switch(slide_state){
-      case 1: return (feature.properties.Docks)/1.5;
-      case 2: return 8;
-      case 3: return 8;
-      case 4: return 8;
-      case 5: return 8;
-      case 6: return 8;
-      case 7: return 8;
-      case 8: return 8;
-      case 9: return 8;
-      case 10: return (18/(feature.properties.station_avg_ridership_cluster_weekday));
-      case 11: return (18/(feature.properties.station_avg_ridership_cluster_weekend));
-      case 12: return (18/(feature.properties.station_avg_ridership_cluster_weekday));
-      case 13: return (18/(feature.properties.station_avg_ridership_cluster_weekend));
-      case 14: return 8;
-      case 15: return 8;
-      case 16: return 8;
-      case 17: return 8;
-      case 18: return 8;
+    if(slide_state==1){
+      return (feature.properties.Docks)/1.5;
+    }else if(slide_state==10 | slide_state==11 | slide_state==12 | slide_state==13){
+      return (18/(feature.properties.station_avg_ridership_cluster_weekday));
+    }else{
+      return 8;
     }
   };
 
   //// marker border color
   var markerColor = function(feature){
-    switch(slide_state){
-      case 1: return "#0F4AA7";
-      case 2: switch(feature.properties.cluster_weekday){
+    if(slide_state==2 | slide_state==3 | slide_state==4 | slide_state==5){
+      switch(feature.properties.cluster_weekday){
                 case 1: return "#294993";
                 case 2: return "#57BE25";
                 case 3: return "#FDF300";
-              }
-              break;
-      case 3: switch(feature.properties.cluster_weekday){
-                case 1: return "#294993";
-                case 2: return "#57BE25";
-                case 3: return "#FDF300";
-              }
-              break;
-      case 4: switch(feature.properties.cluster_weekday){
-                case 1: return "#294993";
-                case 2: return "#57BE25";
-                case 3: return "#FDF300";
-              }
-              break;
-      case 5: switch(feature.properties.cluster_weekday){
-                case 1: return "#294993";
-                case 2: return "#57BE25";
-                case 3: return "#FDF300";
-              }
-              break;
-      case 6: switch(feature.properties.cluster_weekend){
+      }
+    }else if(slide_state==6 | slide_state==7 | slide_state==8 | slide_state==9){
+      switch(feature.properties.cluster_weekend){
                 case 1: return "#57BE25";
                 case 2: return "#294993";
                 case 3: return "#FDF300";
-              }
-              break;
-      case 7: switch(feature.properties.cluster_weekend){
-                case 1: return "#57BE25";
-                case 2: return "#294993";
-                case 3: return "#FDF300";
-              }
-              break;
-      case 8: switch(feature.properties.cluster_weekend){
-                case 1: return "#57BE25";
-                case 2: return "#294993";
-                case 3: return "#FDF300";
-              }
-              break;
-      case 9: switch(feature.properties.cluster_weekend){
-                case 1: return "#57BE25";
-                case 2: return "#294993";
-                case 3: return "#FDF300";
-              }
-              break;
-      case 10: return "grey";
-      case 11: return "grey";
-      case 12: switch(feature.properties.final_cluster_weekday){
+      }
+    }else if(slide_state==10 | slide_state==11){
+      return "grey";
+    }else if(slide_state==12){
+      switch(feature.properties.final_cluster_weekday){
                  case 1: return "#294993";
                  case 2: return "#425E9F";
                  case 3: return "#667FB8";
@@ -330,9 +284,9 @@ $(document).ready(function() {
                  case 7: return "#FDF300";
                  case 8: return "#FFF738";
                  case 9: return "#FFF963";
-               }
-               break;
-      case 13: switch(feature.properties.final_cluster_weekend){
+      }
+    }else if(slide_state==13){
+      switch(feature.properties.final_cluster_weekend){
                  case 1: return "#57BE25";
                  case 2: return "#73CE47";
                  case 3: return "#96E272";
@@ -342,91 +296,54 @@ $(document).ready(function() {
                  case 7: return "#FDF300";
                  case 8: return "#FFF738";
                  case 9: return "#FFF963";
-               }
-               break;
-      case 14: if(feature.properties.station_avg_ridership_weekday == getMaxValueWeekday){
-                return "#FD3500";
-               }else{
-                 return "#0F4AA7";
-               }
-               break;
-      case 15: if(feature.properties.station_avg_ridership_weekend == getMaxValueWeekend){
-                return "#FD3500";
-               }else{
-                 return "#0F4AA7";
-               }
-               break;
-      case 16: if(feature.properties.most_positive_imbalanced_pressure > Math.abs(feature.properties.most_negative_imbalanced_pressure)){
-                return "#FD3500";
-               }else{
-                 return "#0F4AA7";
-               }
-               break;
-      case 17: if(feature.properties.most_positive_imbalanced_pressure == getMaxPositiveImbalance){
-                return "#FD3500";
-               }else{
-                 return "#0F4AA7";
-               }
-               break;
-      case 18: return "#0F4AA7";
+      }
+    }else if(slide_state==14){
+      if(feature.properties.station_avg_ridership_weekday == getMaxValueWeekday){
+        return "#FD3500";
+      }else{
+       return "#0F4AA7";
+      }
+    }else if(slide_state==15){
+      if(feature.properties.station_avg_ridership_weekend == getMaxValueWeekend){
+        return "#FD3500";
+      }else{
+        return "#0F4AA7";
+      }
+    }else if(slide_state==16){
+      if(feature.properties.most_positive_imbalanced_pressure > Math.abs(feature.properties.most_negative_imbalanced_pressure)){
+        return "#FD3500";
+      }else{
+        return "#0F4AA7";
+      }
+    }else if(slide_state==17){
+      if(feature.properties.most_positive_imbalanced_pressure == getMaxPositiveImbalance){
+        return "#FD3500";
+      }else{
+        return "#0F4AA7";
+      }
+    }else{
+      return "#0F4AA7";
     }
   };
 
   //// marker fillColor
   var markerFillcolor = function(feature){
-    switch(slide_state){
-      case 1: return "#0F4AA7";
-      case 2: switch(feature.properties.cluster_weekday){
+    if(slide_state==2 | slide_state==3 | slide_state==4 | slide_state==5){
+      switch(feature.properties.cluster_weekday){
                 case 1: return "#294993";
                 case 2: return "#57BE25";
                 case 3: return "#FDF300";
-              }
-              break;
-      case 3: switch(feature.properties.cluster_weekday){
-                case 1: return "#294993";
-                case 2: return "#57BE25";
-                case 3: return "#FDF300";
-              }
-              break;
-      case 4: switch(feature.properties.cluster_weekday){
-                case 1: return "#294993";
-                case 2: return "#57BE25";
-                case 3: return "#FDF300";
-              }
-              break;
-      case 5: switch(feature.properties.cluster_weekday){
-                case 1: return "#294993";
-                case 2: return "#57BE25";
-                case 3: return "#FDF300";
-              }
-              break;
-      case 6: switch(feature.properties.cluster_weekend){
+      }
+    }else if(slide_state==6 | slide_state==7 | slide_state==8 | slide_state==9){
+      switch(feature.properties.cluster_weekend){
                 case 1: return "#57BE25";
                 case 2: return "#294993";
                 case 3: return "#FDF300";
-              }
-              break;
-      case 7: switch(feature.properties.cluster_weekend){
-                case 1: return "#57BE25";
-                case 2: return "#294993";
-                case 3: return "#FDF300";
-              }
-              break;
-      case 8: switch(feature.properties.cluster_weekend){
-                case 1: return "#57BE25";
-                case 2: return "#294993";
-                case 3: return "#FDF300";
-              }
-              break;
-      case 9: switch(feature.properties.cluster_weekend){
-                case 1: return "#57BE25";
-                case 2: return "#294993";
-                case 3: return "#FDF300";
-              }
-              break;
-      case 10: return "grey";
-      case 11: return "grey";
-      case 12: switch(feature.properties.final_cluster_weekday){
+      }
+    }else if(slide_state==10 | slide_state==11){
+      return "grey";
+    }else if(slide_state==12){
+      switch(feature.properties.final_cluster_weekday){
                  case 1: return "#294993";
                  case 2: return "#425E9F";
                  case 3: return "#667FB8";
@@ -436,9 +353,9 @@ $(document).ready(function() {
                  case 7: return "#FDF300";
                  case 8: return "#FFF738";
                  case 9: return "#FFF963";
-               }
-               break;
-      case 13: switch(feature.properties.final_cluster_weekend){
+      }
+    }else if(slide_state==13){
+      switch(feature.properties.final_cluster_weekend){
                  case 1: return "#57BE25";
                  case 2: return "#73CE47";
                  case 3: return "#96E272";
@@ -448,33 +365,33 @@ $(document).ready(function() {
                  case 7: return "#FDF300";
                  case 8: return "#FFF738";
                  case 9: return "#FFF963";
-               }
-               break;
-      case 14: if(feature.properties.station_avg_ridership_weekday == getMaxValueWeekday){
-                return "#FD3500";
-               }else{
-                 return "#0F4AA7";
-               }
-               break;
-      case 15: if(feature.properties.station_avg_ridership_weekend == getMaxValueWeekend){
-                return "#FD3500";
-               }else{
-                 return "#0F4AA7";
-               }
-               break;
-      case 16: if(feature.properties.most_positive_imbalanced_pressure > Math.abs(feature.properties.most_negative_imbalanced_pressure)){
-                return "#FD3500";
-               }else{
-                 return "#0F4AA7";
-               }
-               break;
-      case 17: if(feature.properties.most_positive_imbalanced_pressure == getMaxPositiveImbalance){
-                return "#FD3500";
-               }else{
-                 return "#0F4AA7";
-               }
-               break;
-      case 18: return "#0F4AA7";
+      }
+    }else if(slide_state==14){
+      if(feature.properties.station_avg_ridership_weekday == getMaxValueWeekday){
+        return "#FD3500";
+      }else{
+       return "#0F4AA7";
+      }
+    }else if(slide_state==15){
+      if(feature.properties.station_avg_ridership_weekend == getMaxValueWeekend){
+        return "#FD3500";
+      }else{
+        return "#0F4AA7";
+      }
+    }else if(slide_state==16){
+      if(feature.properties.most_positive_imbalanced_pressure > Math.abs(feature.properties.most_negative_imbalanced_pressure)){
+        return "#FD3500";
+      }else{
+        return "#0F4AA7";
+      }
+    }else if(slide_state==17){
+      if(feature.properties.most_positive_imbalanced_pressure == getMaxPositiveImbalance){
+        return "#FD3500";
+      }else{
+        return "#0F4AA7";
+      }
+    }else{
+      return "#0F4AA7";
     }
   };
 

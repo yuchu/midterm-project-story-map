@@ -25,7 +25,7 @@ a:hover{
 .map {
     position: absolute;
     right: 0px;
-    left: 30%;
+    left: 620px;
     height: 100%;
     top: 0;
 }
@@ -33,7 +33,7 @@ a:hover{
 .sidebar {
     position: absolute;
     left: 0px;
-    width: 30%;
+    width: 620px;
     top: 0;
     bottom: 100px;
     overflow-y: auto;
@@ -112,9 +112,9 @@ li{
   position:fixed;
   bottom:0;
   left:0;
-  background-color: #BFBFBF;
+  background-color: #404040;
   height:55px;
-  width:30%;
+  width:620px;
 }
 
 .button{
@@ -151,7 +151,7 @@ li{
   bottom:55px;
   left:0;
   height:50px;
-  width:30%;
+  width:620px;
   background-color: #202020;
   color: #BFBFBF;
 }
