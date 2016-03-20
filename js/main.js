@@ -1,7 +1,7 @@
 //// dataset url
 var dataset = 'https://raw.githubusercontent.com/yuchu/midterm-project-story-map/master/station.geojson';
 
-////Basemaps collections
+////Basemaps
 var CartoDB_Positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
   subdomains: 'abcd',
@@ -248,13 +248,15 @@ $(document).ready(function() {
 
   //// marker radius
   var markerRadius = function(feature){
+    var result;
     if(slide_state==1){
-      return (feature.properties.Docks)/1.5;
+      result = (feature.properties.Docks)/1.5;
     }else if(slide_state==10 | slide_state==11 | slide_state==12 | slide_state==13){
-      return (18/(feature.properties.station_avg_ridership_cluster_weekday));
+      result = (18/(feature.properties.station_avg_ridership_cluster_weekday));
     }else{
-      return 8;
+      result = 8;
     }
+    return result;
   };
 
   //// marker border color
@@ -413,11 +415,13 @@ $(document).ready(function() {
       case 1: $('#previous_button').hide();
               $('#first_slide').show();
               $('#second_slide').hide();
+              $('#second_legend').hide();
               removeMarkers(markers);
               ajaxCall();
               break;
       case 2: $('#second_slide').show();
               $('#third_slide').hide();
+              $('#second_legend').show();
               removeMarkers(markers);
               ajaxCall();
               break;
@@ -433,11 +437,13 @@ $(document).ready(function() {
               break;
       case 5: $('#fifth_slide').show();
               $('#sixth_slide').hide();
+              $('#sixth_legend').hide();
               removeMarkers(markers);
               ajaxCall();
               break;
       case 6: $('#sixth_slide').show();
               $('#seventh_slide').hide();
+              $('#sixth_legend').show();
               removeMarkers(markers);
               ajaxCall();
               break;
@@ -463,37 +469,49 @@ $(document).ready(function() {
                break;
       case 11: $('#eleventh_slide').show();
                $('#twelfth_slide').hide();
+               $('#twelfth_legend').hide();
                removeMarkers(markers);
                ajaxCall();
                break;
       case 12: $('#twelfth_slide').show();
                $('#thirteenth_slide').hide();
+               $('#twelfth_legend').show();
+               $('#thirteenth_legend').hide();
                removeMarkers(markers);
                ajaxCall();
                break;
       case 13: $('#thirteenth_slide').show();
                $('#forteenth_slide').hide();
+               $('#thirteenth_legend').show();
+               $('#forteenth_legend').hide();
                removeMarkers(markers);
                ajaxCall();
                break;
       case 14: $('#forteenth_slide').show();
                $('#fifteenth_slide').hide();
+               $('#forteenth_legend').show();
+               $('#fifteenth_legend').hide();
                removeMarkers(markers);
                ajaxCall();
                break;
       case 15: $('#fifteenth_slide').show();
                $('#sixteenth_slide').hide();
+               $('#fifteenth_legend').show();
+               $('#sixteenth_legend').hide();
                removeMarkers(markers);
                ajaxCall();
                break;
       case 16: $('#sixteenth_slide').show();
                $('#seventeenth_slide').hide();
+               $('#sixteenth_legend').show();
+               $('#seventeenth_legend').hide();
                removeMarkers(markers);
                ajaxCall();
                break;
       case 17: $('#next_button').show();
                $('#seventeenth_slide').show();
                $('#eighteenth_slide').hide();
+               $('#seventeenth_legend').show();
                removeMarkers(markers);
                ajaxCall();
                break;
@@ -509,11 +527,13 @@ $(document).ready(function() {
       case 2: $('#previous_button').show();
               $('#first_slide').hide();
               $('#second_slide').show();
+              $('#second_legend').show();
               removeMarkers(markers);
               ajaxCall();
               break;
       case 3: $('#second_slide').hide();
               $('#third_slide').show();
+              $('#second_legend').hide();
               removeMarkers(markers);
               ajaxCall();
               break;
@@ -529,11 +549,13 @@ $(document).ready(function() {
               break;
       case 6: $('#fifth_slide').hide();
               $('#sixth_slide').show();
+              $('#sixth_legend').show();
               removeMarkers(markers);
               ajaxCall();
               break;
       case 7: $('#sixth_slide').hide();
               $('#seventh_slide').show();
+              $('#sixth_legend').hide();
               removeMarkers(markers);
               ajaxCall();
               break;
@@ -559,37 +581,49 @@ $(document).ready(function() {
                break;
       case 12: $('#eleventh_slide').hide();
                $('#twelfth_slide').show();
+               $('#twelfth_legend').show();
                removeMarkers(markers);
                ajaxCall();
                break;
       case 13: $('#twelfth_slide').hide();
                $('#thirteenth_slide').show();
+               $('#twelfth_legend').hide();
+               $('#thirteenth_legend').show();
                removeMarkers(markers);
                ajaxCall();
                break;
       case 14: $('#thirteenth_slide').hide();
                $('#forteenth_slide').show();
+               $('#thirteenth_legend').hide();
+               $('#forteenth_legend').show();
                removeMarkers(markers);
                ajaxCall();
                break;
       case 15: $('#forteenth_slide').hide();
                $('#fifteenth_slide').show();
+               $('#forteenth_legend').hide();
+               $('#fifteenth_legend').show();
                removeMarkers(markers);
                ajaxCall();
                break;
       case 16: $('#fifteenth_slide').hide();
                $('#sixteenth_slide').show();
+               $('#fifteenth_legend').hide();
+               $('#sixteenth_legend').show();
                removeMarkers(markers);
                ajaxCall();
                break;
       case 17: $('#sixteenth_slide').hide();
                $('#seventeenth_slide').show();
+               $('#sixteenth_legend').hide();
+               $('#seventeenth_legend').show();
                removeMarkers(markers);
                ajaxCall();
                break;
       case 18: $('#next_button').hide();
                $('#seventeenth_slide').hide();
                $('#eighteenth_slide').show();
+               $('#seventeenth_legend').hide();
                removeMarkers(markers);
                ajaxCall();
                break;

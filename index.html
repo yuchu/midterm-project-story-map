@@ -29,7 +29,7 @@
       <p class="intro"> <b>Total Stations:</b> 73 </p>
       <p class="intro"> <b>Total Docks:</b> 1316 (8~35 docks per station) </p>
       <p class="intro"> <b>Total Bikes:</b> 600 + </p>
-      <p class="graph_index"> Graph 1: Bike share station by station size<br /> <em>Click on stations to see detail station sizes</em></p>
+      <p class="graph_index">Graph 1: Bike share station by station size<br /> <em>Click on stations to see detail station sizes</em></p>
     </div>
 
     <div id="second_slide" style="display: none;">
@@ -48,22 +48,7 @@
       <p>
         Using k-means clustering method, we identified 3 weekday temporal clusters based on the value of imbalance pressure.
       </p>
-      <br />
-      <br />
-      <div class="legend">
-        <div>
-          <div id="weekday_cluster1" class="small_legend"></div>
-          <p><b>Group 1:</b> AM Outflow, PM Inflow</p>
-        </div>
-        <div>
-          <div id="weekday_cluster2" class="small_legend"></div>
-          <p><b>Group 2:</b> Balanced (Slight AM Outflow)</p>
-        </div>
-        <div>
-          <div id="weekday_cluster3" class="small_legend"></div>
-          <p><b>Group 3:</b> AM Inflow, PM Outflow</p>
-        </div>
-      </div>
+
       <p class="graph_index"> Graph 2: Three temporal cluster groups</p>
     </div>
 
@@ -72,8 +57,9 @@
       <p>
         The following time series graph shows the average imbalance pressure of these stations by hour.
       </p>
-      <br />
-      <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/10.embed?share_key=BB3KVei5LC3qoAeNIkU5hl"></iframe>
+      <div>
+        <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/10.embed?share_key=BB3KVei5LC3qoAeNIkU5hl"></iframe>
+      </div>
       <p class="graph_index"> Graph 3: Weekday temporal cluster group 1</p>
     </div>
 
@@ -82,8 +68,9 @@
       <p>
         The following time series graph shows the average imbalance pressure of these stations by hour.
       </p>
-      <br />
-      <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/12.embed"></iframe>
+      <div>
+        <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/12.embed"></iframe>
+      </div>
       <p class="graph_index"> Graph 4: Weekday temporal cluster group 2</p>
     </div>
 
@@ -92,8 +79,9 @@
       <p>
         The following time series graph shows the average imbalance pressure of these stations by hour.
       </p>
-      <br />
-      <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/11.embed"></iframe>
+      <div>
+        <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/11.embed"></iframe>
+      </div>
       <p class="graph_index"> Graph 5: Weekday temporal cluster group 3</p>
     </div>
 
@@ -102,20 +90,6 @@
       <p>
         Using k-means clustering method, we also identified 3 weekend temporal clusters.
       </p>
-      <div class="legend">
-        <div>
-          <div id="weekend_cluster1" class="small_legend"></div>
-          <p><b>Group 1:</b> Balanced</p>
-        </div>
-        <div>
-          <div id="weekend_cluster2" class="small_legend"></div>
-          <p><b>Group 2:</b> Slight AM Outflow</p>
-        </div>
-        <div>
-          <div id="weekend_cluster3" class="small_legend"></div>
-          <p><b>Group 3:</b> Slight AM Inflow</p>
-        </div>
-      </div>
       <p class="graph_index"> Graph 6: Three temporal cluster groups</p>
     </div>
 
@@ -124,8 +98,9 @@
       <p>
         The following time series graph shows the average imbalance pressure of these stations by hour.
       </p>
-      <br />
-      <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/15.embed"></iframe>
+      <div>
+        <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/15.embed"></iframe>
+      </div>
       <p class="graph_index"> Graph 7: Weekend temporal cluster group 1</p>
     </div>
 
@@ -134,8 +109,9 @@
       <p>
         The following time series graph shows the average imbalance pressure of these stations by hour.
       </p>
-      <br />
-      <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/18.embed"></iframe>
+      <div>
+        <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/18.embed"></iframe>
+      </div>
       <p class="graph_index"> Graph 8: Weekend temporal cluster group 2</p>
     </div>
 
@@ -144,8 +120,9 @@
       <p>
         The following time series graph shows the average imbalance pressure of these stations by hour.
       </p>
-      <br />
-      <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/21.embed"></iframe>
+      <div>
+        <iframe width="570" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~ycess86109/21.embed"></iframe>
+      </div>
       <p class="graph_index"> Graph 9: Weekend temporal cluster group 3</p>
     </div>
 
@@ -198,20 +175,6 @@
         Maintain appropriate occupancy rate to relieve the imbalance pressure is therefore very important, especially for those stations that are highly used and face high imbalance pressure during peak hours.
         For this type of stations, another way is to expand the station size so that more bikes or docks and be reserved.
       </p>
-      <div class="legend">
-        <div>
-          <div id="weekday_cluster1" class="small_legend"></div>
-          <p><b>Group 1:</b> AM Outflow, PM Inflow</p>
-        </div>
-        <div>
-          <div id="weekday_cluster2" class="small_legend"></div>
-          <p><b>Group 2:</b> Balanced (Slight AM Outflow)</p>
-        </div>
-        <div>
-          <div id="weekday_cluster3" class="small_legend"></div>
-          <p><b>Group 3:</b> AM Inflow, PM Outflow</p>
-        </div>
-      </div>
       <p class="graph_index"> Graph 12: Weekday temporal cluster groups<br />by average activities</p>
     </div>
 
@@ -220,20 +183,6 @@
       <p>
         Do the same thing with weekend temporal groups.
       </p>
-      <div class="legend">
-        <div>
-          <div id="weekend_cluster1" class="small_legend"></div>
-          <p><b>Group 1:</b> Balanced</p>
-        </div>
-        <div>
-          <div id="weekend_cluster2" class="small_legend"></div>
-          <p><b>Group 2:</b> Slight AM Outflow</p>
-        </div>
-        <div>
-          <div id="weekend_cluster3" class="small_legend"></div>
-          <p><b>Group 3:</b> Slight AM Inflow</p>
-        </div>
-      </div>
       <p class="graph_index"> Graph 13: Weekend temporal cluster groups<br />by average activities</p>
     </div>
 
@@ -242,16 +191,6 @@
       <p>
         During the weekdays, the Rittenhouse Square station and the 11th & Poplar John F. Street Community Center station are the most active and the least active station respectively.
       </p>
-      <div class="legend">
-        <div>
-          <div id="most_active" class="small_legend"></div>
-          <p>The most active station on weekdays</p>
-        </div>
-        <div>
-          <div id="least_active" class="small_legend"></div>
-          <p>The least active station on weekdays</p>
-        </div>
-      </div>
       <p class="graph_index"> Graph 14: Which stations are the most/least active ones<br />during weekdays?</p>
     </div>
 
@@ -260,16 +199,6 @@
       <p>
         Surprise! During the weekends, the Rittenhouse Square station and the 11th & Poplar John F. Street Community Center station are again the most and the least active stations.
       </p>
-      <div class="legend">
-        <div>
-          <div id="most_active" class="small_legend"></div>
-          <p>The most active station on weekends</p>
-        </div>
-        <div>
-          <div id="least_active" class="small_legend"></div>
-          <p>The least active station on weekends</p>
-        </div>
-      </div>
       <p class="graph_index"> Graph 15: Which stations are the most/least active ones<br />during weekends?</p>
     </div>
 
@@ -278,16 +207,6 @@
       <p>
         Click on the stations to see their most imbalanced time.
       </p>
-      <div class="legend">
-        <div>
-          <div id="positive_imbalance_pressure" class="small_legend"></div>
-          <p>The most imbalanced value is a positive number</p>
-        </div>
-        <div>
-          <div id="negative_imbalanced_pressure" class="small_legend"></div>
-          <p>The most imbalanced value is a negative number</p>
-        </div>
-      </div>
       <p class="graph_index"> Graph 16: The most imbalanced time for every station</p>
     </div>
 
@@ -297,16 +216,6 @@
         The highest imbalance pressure for the whole system happened at the 18th & JFK station and the 3rd & Girard station.
         Click on the stations to see more.
       </p>
-      <div class="legend">
-        <div>
-          <div id="most_positive_imbalanced" class="small_legend"></div>
-          <p>The station that has the highest positive imbalance pressure</p>
-        </div>
-        <div>
-          <div id="least_active_imbalanced" class="small_legend"></div>
-          <p>The station that has the lowest negative imbalance pressure</p>
-        </div>
-      </div>
       <p class="graph_index"> Graph 17: Stations that have the highest/lowest<br />positive/negative imbalance pressure</p>
     </div>
 
@@ -323,7 +232,7 @@
   <div class="Author">
     <p>YuChu Huang <br />2016 Spring, CPLN690 Midterm Project</p>
   </div>
-  
+
   <!-- Button -->
   <div class="button_div">
     <button id="previous_button" class="button"> < &nbsp Previous </button>
@@ -333,6 +242,104 @@
   <!-- Map -->
   <div id="map" class="map"></div>
   <!-- Legend -->
+  <div class="legend">
+    <div id="second_legend" style="display: none;">
+      <div>
+        <div id="weekday_cluster1" class="small_legend"></div>
+        <p><b>Group 1:</b> AM Outflow, PM Inflow</p>
+      </div>
+      <div>
+        <div id="weekday_cluster2" class="small_legend"></div>
+        <p><b>Group 2:</b> Balanced (Slight AM Outflow)</p>
+      </div>
+      <div>
+        <div id="weekday_cluster3" class="small_legend"></div>
+        <p><b>Group 3:</b> AM Inflow, PM Outflow</p>
+      </div>
+    </div>
+    <div id="sixth_legend" style="display: none;">
+      <div>
+        <div id="weekend_cluster1" class="small_legend"></div>
+        <p><b>Group 1:</b> Balanced</p>
+      </div>
+      <div>
+        <div id="weekend_cluster2" class="small_legend"></div>
+        <p><b>Group 2:</b> Slight AM Outflow</p>
+      </div>
+      <div>
+        <div id="weekend_cluster3" class="small_legend"></div>
+        <p><b>Group 3:</b> Slight AM Inflow</p>
+      </div>
+    </div>
+    <div id="twelfth_legend" style="display: none;">
+      <div>
+        <div id="weekday_cluster1" class="small_legend"></div>
+        <p><b>Group 1:</b> AM Outflow, PM Inflow</p>
+      </div>
+      <div>
+        <div id="weekday_cluster2" class="small_legend"></div>
+        <p><b>Group 2:</b> Balanced (Slight AM Outflow)</p>
+      </div>
+      <div>
+        <div id="weekday_cluster3" class="small_legend"></div>
+        <p><b>Group 3:</b> AM Inflow, PM Outflow</p>
+      </div>
+    </div>
+    <div id="thirteenth_legend" style="display: none;">
+      <div>
+        <div id="weekend_cluster1" class="small_legend"></div>
+        <p><b>Group 1:</b> Balanced</p>
+      </div>
+      <div>
+        <div id="weekend_cluster2" class="small_legend"></div>
+        <p><b>Group 2:</b> Slight AM Outflow</p>
+      </div>
+      <div>
+        <div id="weekend_cluster3" class="small_legend"></div>
+        <p><b>Group 3:</b> Slight AM Inflow</p>
+      </div>
+    </div>
+    <div id="forteenth_legend" style="display: none;">
+      <div>
+        <div id="most_active" class="small_legend"></div>
+        <p>The most active station on weekdays</p>
+      </div>
+      <div>
+        <div id="least_active" class="small_legend"></div>
+        <p>The least active station on weekdays</p>
+      </div>
+    </div>
+    <div id="fifteenth_legend" style="display: none;">
+      <div>
+        <div id="most_active" class="small_legend"></div>
+        <p>The most active station on weekends</p>
+      </div>
+      <div>
+        <div id="least_active" class="small_legend"></div>
+        <p>The least active station on weekends</p>
+      </div>
+    </div>
+    <div id="sixteenth_legend" style="display: none;">
+      <div>
+        <div id="positive_imbalance_pressure" class="small_legend"></div>
+        <p>The most imbalanced value is a positive number</p>
+      </div>
+      <div>
+        <div id="negative_imbalanced_pressure" class="small_legend"></div>
+        <p>The most imbalanced value is a negative number</p>
+      </div>
+    </div>
+    <div id="seventeenth_legend" style="display: none;">
+      <div>
+        <div id="most_positive_imbalanced" class="small_legend"></div>
+        <p>The station that has the highest positive imbalance pressure</p>
+      </div>
+      <div>
+        <div id="least_active_imbalanced" class="small_legend"></div>
+        <p>The station that has the lowest negative imbalance pressure</p>
+      </div>
+    </div>
+  </div>
 
   <!-- Javascript Imports -->
   <script src="js/jquery-2.2.0.js"></script>

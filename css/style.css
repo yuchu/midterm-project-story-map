@@ -44,9 +44,10 @@ a:hover{
 }
 
 .legend{
-  /*position:absolute;*/
-  bottom:20%;
-  left:5%;
+  position:absolute;
+  bottom:18px;
+  right:0;
+  background-color:#fff;
 }
 
 .small_legend{
@@ -101,12 +102,19 @@ li{
 }
 
 .graph_index{
+  position:fixed;
   text-align: right;
-  /*position:fixed;*/
   font-size: 20px;
-  /*right:5%;
-  bottom:12%;*/
+  bottom:105px;
+  left:0;
+  width:620px;
+  padding-right:20px;
+  padding-bottom: 20px;
+  margin:0;
+  background-color: #202020;
+  color: #BFBFBF;
 }
+
 
 .button_div{
   position:fixed;
