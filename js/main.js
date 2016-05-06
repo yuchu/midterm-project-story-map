@@ -251,8 +251,10 @@ $(document).ready(function() {
     var result;
     if(slide_state==1){
       result = (feature.properties.Docks)/1.5;
-    }else if(slide_state==10 | slide_state==11 | slide_state==12 | slide_state==13){
+    }else if(slide_state==10 | slide_state==12){
       result = (18/(feature.properties.station_avg_ridership_cluster_weekday));
+    }else if(slide_state==11 | slide_state==13){
+      result = (18/(feature.properties.station_avg_ridership_cluster_weekend));
     }else{
       result = 8;
     }
